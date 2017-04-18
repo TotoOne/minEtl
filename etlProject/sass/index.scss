@@ -1,0 +1,85 @@
+@import "compass/reset";
+@import "compass/css3";
+body{
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+	border: solid 1px red;
+}
+a{
+	color: #666666;
+	text-decoration:none;
+}
+a:hover{
+	color: #000000;
+}
+.header{
+	.head-topic{
+		display:inline-block;
+		.topic-name{
+			font-size: 32px;
+			font-weight: bolder;
+		}
+		a{
+			margin-left: 1em;
+		}
+	}
+	.window-tool{
+		display: inline-block;
+		float:right;
+		margin-top: 1em;
+	}	
+}
+.containner{
+	margin-top:50px;
+	height: 430px;
+	.trans-table{
+		table-layout: fixed;
+		width: 100%;
+		.trans-item{
+			border-bottom:1px solid #f1f1f1;
+			line-height: 1.6em;
+			td{
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			.topic-name{
+				font-family: georgia;
+				// font-family: comic sans ms;
+				// font-family: impact;
+				text-indent: 1em;
+				width:23%;
+			}
+			.trans-name{
+				// font-family: comic sans ms;
+				// font-family: impact;
+				font-family: garamond;
+				text-indent: 1.5em;
+				width:62%;				
+			}
+			.trans-state{
+				text-indent: 2em;
+				font-size: 0.8em;
+				width: 15%;
+				font-family: Verdana;
+			}
+		}
+	}
+}
+.footer{
+	.div-message{
+		margin-top: 2em;
+		height:5em;
+		margin-bottom: 0.4em;
+		.span-message{
+			color: gray;
+			font-size:1.2em;
+			font-family: impact;
+		}
+		span{
+			margin-right: 4.3em;
+			font-family: impact;
+		}
+	}
+}

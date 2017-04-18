@@ -1,0 +1,162 @@
+/* line 5, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/index.scss */
+body {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: solid 1px red;
+}
+
+/* line 9, ../sass/index.scss */
+a {
+  color: #666666;
+  text-decoration: none;
+}
+
+/* line 13, ../sass/index.scss */
+a:hover {
+  color: #000000;
+}
+
+/* line 17, ../sass/index.scss */
+.header .head-topic {
+  display: inline-block;
+}
+/* line 19, ../sass/index.scss */
+.header .head-topic .topic-name {
+  font-size: 32px;
+  font-weight: bolder;
+}
+/* line 23, ../sass/index.scss */
+.header .head-topic a {
+  margin-left: 1em;
+}
+/* line 27, ../sass/index.scss */
+.header .window-tool {
+  display: inline-block;
+  float: right;
+  margin-top: 1em;
+}
+
+/* line 33, ../sass/index.scss */
+.containner {
+  margin-top: 50px;
+  height: 430px;
+}
+/* line 36, ../sass/index.scss */
+.containner .trans-table {
+  table-layout: fixed;
+  width: 100%;
+}
+/* line 39, ../sass/index.scss */
+.containner .trans-table .trans-item {
+  border-bottom: 1px solid #f1f1f1;
+  line-height: 1.6em;
+}
+/* line 42, ../sass/index.scss */
+.containner .trans-table .trans-item td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 47, ../sass/index.scss */
+.containner .trans-table .trans-item .topic-name {
+  font-family: georgia;
+  text-indent: 1em;
+  width: 23%;
+}
+/* line 54, ../sass/index.scss */
+.containner .trans-table .trans-item .trans-name {
+  font-family: garamond;
+  text-indent: 1.5em;
+  width: 62%;
+}
+/* line 61, ../sass/index.scss */
+.containner .trans-table .trans-item .trans-state {
+  text-indent: 2em;
+  font-size: 0.8em;
+  width: 15%;
+  font-family: Verdana;
+}
+
+/* line 71, ../sass/index.scss */
+.footer .div-message {
+  margin-top: 2em;
+  height: 5em;
+  margin-bottom: 0.4em;
+}
+/* line 75, ../sass/index.scss */
+.footer .div-message .span-message {
+  color: gray;
+  font-size: 1.2em;
+  font-family: impact;
+}
+/* line 80, ../sass/index.scss */
+.footer .div-message span {
+  margin-right: 4.3em;
+  font-family: impact;
+}
