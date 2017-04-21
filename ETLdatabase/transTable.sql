@@ -25,8 +25,8 @@ create table transInform(					#转换具体信息
 	aftertranstargetdeal varchar(1000)
 ) charset = utf8 auto_increment=1;
 
-create table link(							#连接类型 
-	linktype varchar(2),
-	linkdiscribe varchar(40)
-) charset = utf8;
+-- create table link(							#连接类型 不需要了
+-- 	linktype varchar(2),
+-- 	linkdiscribe varchar(40)
+-- ) charset = utf8;
 

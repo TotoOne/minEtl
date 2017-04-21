@@ -63,106 +63,126 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 3, ../sass/index.scss */
+/* line 3, ../sass/sourceTopic.scss */
 body {
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  background-color: #ffffef;
+  padding: 50px;
+  background-color: #ffffe9;
 }
 
-/* line 9, ../sass/index.scss */
+/* line 7, ../sass/sourceTopic.scss */
 a {
-  color: #666666;
+  color: #999999;
   text-decoration: none;
 }
 
-/* line 13, ../sass/index.scss */
+/* line 11, ../sass/sourceTopic.scss */
 a:hover {
   color: #000000;
   cursor: normal;
 }
 
-/* line 18, ../sass/index.scss */
-.header .head-topic {
-  display: inline-block;
+/* line 15, ../sass/sourceTopic.scss */
+.header {
+  display: flex;
+  align-items: center;
 }
-/* line 20, ../sass/index.scss */
+/* line 18, ../sass/sourceTopic.scss */
+.header .head-topic {
+  flex: 20;
+}
+/* line 20, ../sass/sourceTopic.scss */
 .header .head-topic .topic-name {
   font-size: 32px;
-  font-weight: bolder;
+  font-family: verdana;
 }
-/* line 24, ../sass/index.scss */
+/* line 24, ../sass/sourceTopic.scss */
 .header .head-topic a {
   margin-left: 1em;
-  cursor: pointer;
 }
-/* line 29, ../sass/index.scss */
+/* line 28, ../sass/sourceTopic.scss */
 .header .window-tool {
-  display: inline-block;
-  float: right;
-  margin-top: 1em;
-}
-
-/* line 35, ../sass/index.scss */
-.containner {
-  margin-top: 50px;
-  height: 430px;
-}
-/* line 38, ../sass/index.scss */
-.containner .trans-table {
-  table-layout: fixed;
-  width: 100%;
-}
-/* line 41, ../sass/index.scss */
-.containner .trans-table .trans-item {
-  border-bottom: 1px solid #f1f1f1;
-  line-height: 1.6em;
-}
-/* line 44, ../sass/index.scss */
-.containner .trans-table .trans-item td {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-/* line 49, ../sass/index.scss */
-.containner .trans-table .trans-item .topic-name {
-  font-family: verdana;
-  text-indent: 1em;
-  width: 23%;
-}
-/* line 57, ../sass/index.scss */
-.containner .trans-table .trans-item .trans-name {
-  font-family: verdana;
-  text-indent: 1.5em;
-  width: 62%;
-}
-/* line 65, ../sass/index.scss */
-.containner .trans-table .trans-item .trans-state {
-  text-indent: 2em;
-  width: 15%;
-  font-family: Verdana;
-}
-
-/* line 74, ../sass/index.scss */
-.footer .div-msg {
-  margin-bottom: 0.4em;
-  margin-top: 2em;
-  height: 4em;
-  font-family: impact;
   display: flex;
-}
-/* line 80, ../sass/index.scss */
-.footer .div-msg .div-div-msg {
-  color: gray;
-  font-size: 1.3em;
-}
-/* line 84, ../sass/index.scss */
-.footer .div-msg div {
   flex: 1;
-  text-align: center;
 }
-/* line 87, ../sass/index.scss */
-.footer .div-msg div span {
-  margin-right: 1em;
+/* line 31, ../sass/sourceTopic.scss */
+.header .window-tool a {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+}
+/* line 38, ../sass/sourceTopic.scss */
+.header .window-tool a i {
+  text-align: center;
+  font-size: 1.2em;
+  margin-left: 0.33em;
+}
+/* line 44, ../sass/sourceTopic.scss */
+.header .window-tool a:hover {
+  background: #3d3d3d;
+  color: #ffffff;
+}
+
+/* line 50, ../sass/sourceTopic.scss */
+.containner {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: 500px;
+  font-family: verdana;
+}
+/* line 57, ../sass/sourceTopic.scss */
+.containner .div-source-connection {
+  margin-top: 50px;
+  width: 75%;
+}
+/* line 60, ../sass/sourceTopic.scss */
+.containner .div-source-connection .div-input {
+  display: flex;
+  line-height: 1.8em;
+  margin-top: 0.8em;
+}
+/* line 64, ../sass/sourceTopic.scss */
+.containner .div-source-connection .div-input .label-source {
+  flex: 0.8;
+  margin-right: 2em;
+  font-weight: bold;
+  text-align: right;
+}
+/* line 70, ../sass/sourceTopic.scss */
+.containner .div-source-connection .div-input input {
+  flex: 1.5;
+  font-family: verdana;
+  text-indent: 0.4em;
+  border-radius: 2px;
+  border: 1px solid #a3a3a3;
+}
+/* line 80, ../sass/sourceTopic.scss */
+.containner .next-page {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 86, ../sass/sourceTopic.scss */
+.containner .next-page a {
+  display: flex;
+  color: black;
+  border-radius: 50%;
+  width: 2.7em;
+  height: 2.7em;
+  align-items: center;
+}
+/* line 93, ../sass/sourceTopic.scss */
+.containner .next-page a i {
+  font-size: 1.1em;
+  margin-left: 0.4em;
+}
+/* line 98, ../sass/sourceTopic.scss */
+.containner .next-page a:hover {
+  transition: 1s;
+  background: #3d3d3d;
+  color: #ffffff;
 }

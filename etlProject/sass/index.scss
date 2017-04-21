@@ -4,7 +4,7 @@ body{
 	padding-top:50px;
 	padding-left:50px;
 	padding-right:50px;
-	border: solid 1px red;
+	background-color: #ffffef;
 }
 a{
 	color: #666666;
@@ -12,6 +12,7 @@ a{
 }
 a:hover{
 	color: #000000;
+	cursor: normal;
 }
 .header{
 	.head-topic{
@@ -22,6 +23,7 @@ a:hover{
 		}
 		a{
 			margin-left: 1em;
+			cursor: pointer;
 		}
 	}
 	.window-tool{
@@ -45,22 +47,23 @@ a:hover{
 				text-overflow: ellipsis;
 			}
 			.topic-name{
-				font-family: georgia;
+				font-family: verdana;
+				//font-family: georgia;
 				// font-family: comic sans ms;
 				// font-family: impact;
 				text-indent: 1em;
 				width:23%;
 			}
 			.trans-name{
+				font-family: verdana;
 				// font-family: comic sans ms;
 				// font-family: impact;
-				font-family: garamond;
+				// font-family: garamond;
 				text-indent: 1.5em;
 				width:62%;				
 			}
 			.trans-state{
 				text-indent: 2em;
-				font-size: 0.8em;
 				width: 15%;
 				font-family: Verdana;
 			}
@@ -68,18 +71,22 @@ a:hover{
 	}
 }
 .footer{
-	.div-message{
-		margin-top: 2em;
-		height:5em;
+	.div-msg{
 		margin-bottom: 0.4em;
-		.span-message{
+		margin-top: 2em;
+		height:4em;
+		font-family: impact;
+		display: flex;
+		.div-div-msg{
 			color: gray;
-			font-size:1.2em;
-			font-family: impact;
+			font-size: 1.3em;
 		}
-		span{
-			margin-right: 4.3em;
-			font-family: impact;
+		div{
+			flex: 1;
+			text-align:center;
+			span{
+				margin-right:1em;
+			}
 		}
 	}
 }

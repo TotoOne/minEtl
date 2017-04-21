@@ -1,0 +1,127 @@
+@import "compass/reset";
+@import "compass/css3";
+body{
+	padding: 50px;
+	background-color: #ffffe9;
+}
+a{
+	color: #999999;
+	text-decoration:none;
+}
+a:hover{
+	color: #000000;
+	cursor: normal;
+}
+.header{
+	display: flex;
+	align-items:center;
+	.head-topic{
+		flex: 20;
+		.topic-name{
+			font-size: 32px;
+			font-family: verdana;
+		}
+		a{
+			margin-left: 1em;
+		}
+	}
+	.window-tool{
+		display: flex;
+		flex: 1;
+		a{
+			display: flex;
+			align-items: center;
+			border: 1px solid gray;
+			border-radius:50%;
+			width: 2.5em;
+			height: 2.5em;
+			i{
+				text-align:center;
+				font-size: 1.2em;
+				margin-left:0.33em;
+			}
+		}
+		a:hover{
+			background: #3d3d3d;
+			color: #ffffff;
+		}
+	}	
+}
+.containner{
+	// width:100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	// background-color: #ffdede;
+	height: 500px;
+	font-family: verdana;
+	.div-add-topic{
+		margin-top: 100px;
+		width: 75%;
+		.input-div-name{
+			display: flex;
+			line-height: 1.8em;
+			.label-topic-name{
+				flex:0.8;
+				margin-right: 2em;
+				font-weight: bold;
+				text-align: right;
+			}
+			#input-topic-name{
+				flex: 1.5;
+				font-family: verdana;
+				text-indent: 0.4em;
+				border-radius: 2px;
+				border: 1px solid #a3a3a3;
+			}
+		}
+		.toggle-options{
+			display: flex;
+			line-height: 1.8em;
+			margin-top: 0.3em;
+			.toggle{
+				flex: 0.8;
+				margin-right: 2em;
+				font-weight: bold;
+				text-align: right;
+			}
+			.toggle-div{
+				flex: 1.5;
+				select{
+					height: 100%;
+					width: 100%;
+					font-family: verdana;
+					border-radius: 2px;
+					border: 1px solid #a3a3a3;
+					option{
+						text-align: center;						
+					}
+				}
+			}
+		}
+	}
+	.next-page{
+		// border: 1px solid black;
+		margin-top: 5em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		a{
+			display: flex;
+			color: black;
+			border-radius: 50%;
+			width: 2.7em;
+			height: 2.7em;
+			align-items: center;
+			i{
+				font-size: 1.1em;
+				margin-left: 0.4em;
+			}
+		}
+		a:hover{
+			transition: 1s;
+			background: #3d3d3d;
+			color: #ffffff;
+		}	
+	}
+}

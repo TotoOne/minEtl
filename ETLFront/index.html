@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>index</title>
 	<link rel="stylesheet" href="css/font.css">
 	<link rel="stylesheet" href="../etlProject/stylesheets/index.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/index.js"></script>
 </head>
 <body>
 	<header>
 		<div class="header">
 			<div class="head-topic">
 				<span class="topic-name">ETL</span>
-				<a href="topic.html">new</a>
+				<a id="new-topic">new topic</a>
 			</div>
 			<div class = "window-tool">
 				<a href="#"><i class="icon-cancel"></i></a>
-				<a href="#"><i class="icon-minus"></i></a>
+				<a href="#"><i class="icon-minus-1"></i></a>
 			</div>
 		</div>
 	</header>
@@ -101,12 +103,22 @@
 	<div class="footer">
 		<!-- <div>Topic：</div> -->
 		<!-- <div>Tansformation：</div> -->
-		<div class="div-message">
-			<span class="span-message">Message：</span>
-			<span>5 &nbsp;topic</span>
-			<span>3 &nbsp;to do</span>
-			<span>1 &nbsp;doing</span>
-			<span>1 &nbsp;done</span>
+		<div class="div-msg">
+			<div class="div-div-msg">
+				Message：
+			</div>
+			<div>
+				<span class="topicnum">5</span>topic
+			</div>
+			<div>
+				<span class="todonum">3</span>to do
+			</div>
+			<div>
+				<span class="doingnum">1</span>doing
+			</div>
+			<div>
+				<span class="donenum">1</span>done
+			</div>
 		</div>
 	</div>
 </body>

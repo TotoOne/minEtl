@@ -17,12 +17,19 @@
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
-  text-align: center;
   font-variant: normal;
   text-transform: none;
+  font-smoothing: antialiased;
   line-height: 1em;
-  margin-left: .2em;
+  margin-left: .25em;
+  margin-top: .22em;
+  margin-bottom: .217em;
 }
 
 .icon-cancel:before { content: '\e811'; }
-.icon-minus:before{ content: '\e812'; }
+.icon-minus-1:before{ content: '\e812'; }
+.icon-right-outline:before{ content: '\e803' }
+.icon-left-outline:before{ content: '\e813' }
+.icon-right:before{ content: '\e814' }
+.icon-left:before{ content: '\e815' }
+.icon-spin6:before{ content: '\e839' }
