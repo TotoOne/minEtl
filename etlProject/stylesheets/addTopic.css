@@ -95,37 +95,28 @@ a:hover {
   font-size: 32px;
   font-family: verdana;
 }
-/* line 24, ../sass/addTopic.scss */
-.header .head-topic a {
-  margin-left: 1em;
-}
-/* line 28, ../sass/addTopic.scss */
+/* line 25, ../sass/addTopic.scss */
 .header .window-tool {
   display: flex;
   flex: 1;
-}
-/* line 31, ../sass/addTopic.scss */
-.header .window-tool a {
-  display: flex;
   align-items: center;
+  justify-content: center;
   border: 1px solid gray;
   border-radius: 50%;
   width: 2.5em;
   height: 2.5em;
 }
-/* line 38, ../sass/addTopic.scss */
-.header .window-tool a i {
-  text-align: center;
+/* line 34, ../sass/addTopic.scss */
+.header .window-tool i {
   font-size: 1.2em;
-  margin-left: 0.33em;
 }
-/* line 44, ../sass/addTopic.scss */
-.header .window-tool a:hover {
+/* line 38, ../sass/addTopic.scss */
+.header .window-tool:hover {
   background: #3d3d3d;
   color: #ffffff;
 }
 
-/* line 50, ../sass/addTopic.scss */
+/* line 43, ../sass/addTopic.scss */
 .containner {
   display: flex;
   justify-content: center;
@@ -133,24 +124,24 @@ a:hover {
   height: 500px;
   font-family: verdana;
 }
-/* line 58, ../sass/addTopic.scss */
+/* line 51, ../sass/addTopic.scss */
 .containner .div-add-topic {
   margin-top: 100px;
   width: 75%;
 }
-/* line 61, ../sass/addTopic.scss */
+/* line 54, ../sass/addTopic.scss */
 .containner .div-add-topic .input-div-name {
   display: flex;
   line-height: 1.8em;
 }
-/* line 64, ../sass/addTopic.scss */
+/* line 57, ../sass/addTopic.scss */
 .containner .div-add-topic .input-div-name .label-topic-name {
   flex: 0.8;
   margin-right: 2em;
   font-weight: bold;
   text-align: right;
 }
-/* line 70, ../sass/addTopic.scss */
+/* line 63, ../sass/addTopic.scss */
 .containner .div-add-topic .input-div-name #input-topic-name {
   flex: 1.5;
   font-family: verdana;
@@ -158,24 +149,24 @@ a:hover {
   border-radius: 2px;
   border: 1px solid #a3a3a3;
 }
-/* line 78, ../sass/addTopic.scss */
+/* line 71, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options {
   display: flex;
   line-height: 1.8em;
   margin-top: 0.3em;
 }
-/* line 82, ../sass/addTopic.scss */
+/* line 75, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options .toggle {
   flex: 0.8;
   margin-right: 2em;
   font-weight: bold;
   text-align: right;
 }
-/* line 88, ../sass/addTopic.scss */
+/* line 81, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options .toggle-div {
   flex: 1.5;
 }
-/* line 90, ../sass/addTopic.scss */
+/* line 83, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options .toggle-div select {
   height: 100%;
   width: 100%;
@@ -183,33 +174,33 @@ a:hover {
   border-radius: 2px;
   border: 1px solid #a3a3a3;
 }
-/* line 96, ../sass/addTopic.scss */
+/* line 89, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options .toggle-div select option {
   text-align: center;
 }
-/* line 103, ../sass/addTopic.scss */
+/* line 96, ../sass/addTopic.scss */
 .containner .next-page {
   margin-top: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* line 109, ../sass/addTopic.scss */
-.containner .next-page a {
+/* line 101, ../sass/addTopic.scss */
+.containner .next-page div {
   display: flex;
   color: black;
   border-radius: 50%;
-  width: 2.7em;
-  height: 2.7em;
+  width: 2.5em;
+  height: 2.5em;
   align-items: center;
+  justify-content: center;
 }
-/* line 116, ../sass/addTopic.scss */
-.containner .next-page a i {
+/* line 109, ../sass/addTopic.scss */
+.containner .next-page div i {
   font-size: 1.1em;
-  margin-left: 0.4em;
 }
-/* line 121, ../sass/addTopic.scss */
-.containner .next-page a:hover {
+/* line 113, ../sass/addTopic.scss */
+.containner .next-page div:hover {
   transition: 1s;
   background: #3d3d3d;
   color: #ffffff;

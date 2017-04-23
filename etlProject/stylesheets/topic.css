@@ -63,119 +63,117 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 3, ../sass/sourceTopic.scss */
+/* line 3, ../sass/topic.scss */
 body {
-  padding: 50px;
-  background-color: #ffffe9;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ffffef;
 }
 
-/* line 7, ../sass/sourceTopic.scss */
+/* line 9, ../sass/topic.scss */
 a {
-  color: #999999;
+  color: #666666;
   text-decoration: none;
 }
 
-/* line 11, ../sass/sourceTopic.scss */
+/* line 13, ../sass/topic.scss */
 a:hover {
   color: #000000;
   cursor: normal;
 }
 
-/* line 15, ../sass/sourceTopic.scss */
-.header {
-  display: flex;
-  align-items: center;
-}
-/* line 18, ../sass/sourceTopic.scss */
+/* line 18, ../sass/topic.scss */
 .header .head-topic {
-  flex: 20;
+  display: inline-block;
 }
-/* line 20, ../sass/sourceTopic.scss */
+/* line 20, ../sass/topic.scss */
 .header .head-topic .topic-name {
   font-size: 32px;
-  font-family: verdana;
+  font-weight: bolder;
 }
-/* line 25, ../sass/sourceTopic.scss */
+/* line 24, ../sass/topic.scss */
+.header .head-topic a {
+  margin-left: 1em;
+  cursor: pointer;
+}
+/* line 29, ../sass/topic.scss */
 .header .window-tool {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid gray;
-  border-radius: 50%;
-  width: 2.5em;
-  height: 2.5em;
+  display: inline-block;
+  float: right;
+  margin-top: 1em;
 }
-/* line 34, ../sass/sourceTopic.scss */
+/* line 33, ../sass/topic.scss */
 .header .window-tool i {
-  text-align: center;
   font-size: 1.2em;
+  color: #666666;
+  margin-left: 0.5em;
 }
-/* line 39, ../sass/sourceTopic.scss */
-.header .window-tool:hover {
-  transition: 1s;
-  background: #3d3d3d;
-  color: #ffffff;
+/* line 38, ../sass/topic.scss */
+.header .window-tool i:hover {
+  color: #000000;
+  cursor: pointer;
 }
 
-/* line 45, ../sass/sourceTopic.scss */
+/* line 44, ../sass/topic.scss */
 .containner {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  height: 500px;
+  margin-top: 70px;
+  height: 360px;
+}
+/* line 47, ../sass/topic.scss */
+.containner .trans-table {
+  table-layout: fixed;
+  width: 100%;
+}
+/* line 50, ../sass/topic.scss */
+.containner .trans-table .trans-item {
+  border-bottom: 1px solid #f1f1f1;
+  line-height: 1.6em;
+}
+/* line 53, ../sass/topic.scss */
+.containner .trans-table .trans-item td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 58, ../sass/topic.scss */
+.containner .trans-table .trans-item .topic-name {
   font-family: verdana;
+  text-indent: 1em;
+  width: 23%;
 }
-/* line 52, ../sass/sourceTopic.scss */
-.containner .div-source-connection {
-  margin-top: 50px;
-  width: 75%;
-}
-/* line 55, ../sass/sourceTopic.scss */
-.containner .div-source-connection .div-input {
-  display: flex;
-  line-height: 1.8em;
-  margin-top: 0.8em;
-}
-/* line 59, ../sass/sourceTopic.scss */
-.containner .div-source-connection .div-input .label-source {
-  flex: 0.8;
-  margin-right: 2em;
-  font-weight: bold;
-  text-align: right;
-}
-/* line 65, ../sass/sourceTopic.scss */
-.containner .div-source-connection .div-input input {
-  flex: 1.5;
+/* line 66, ../sass/topic.scss */
+.containner .trans-table .trans-item .trans-name {
   font-family: verdana;
-  text-indent: 0.4em;
-  border-radius: 2px;
-  border: 1px solid #a3a3a3;
+  text-indent: 1.5em;
+  width: 62%;
 }
-/* line 75, ../sass/sourceTopic.scss */
-.containner .next-page {
-  margin-top: 5em;
+/* line 74, ../sass/topic.scss */
+.containner .trans-table .trans-item .trans-state {
+  width: 15%;
+  font-family: Verdana;
+  text-align: center;
+}
+
+/* line 83, ../sass/topic.scss */
+.footer .div-msg {
+  margin-bottom: 0.4em;
+  margin-top: 2em;
+  height: 4em;
+  font-family: impact;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
-/* line 81, ../sass/sourceTopic.scss */
-.containner .next-page div {
-  display: flex;
-  color: black;
-  border-radius: 50%;
-  width: 2.7em;
-  height: 2.7em;
-  align-items: center;
-  justify-content: center;
+/* line 89, ../sass/topic.scss */
+.footer .div-msg .div-div-msg {
+  color: gray;
+  font-size: 1.3em;
 }
-/* line 89, ../sass/sourceTopic.scss */
-.containner .next-page div i {
-  font-size: 1.1em;
+/* line 93, ../sass/topic.scss */
+.footer .div-msg div {
+  flex: 1;
+  text-align: center;
 }
-/* line 93, ../sass/sourceTopic.scss */
-.containner .next-page div:hover {
-  transition: 1s;
-  background: #3d3d3d;
-  color: #ffffff;
+/* line 96, ../sass/topic.scss */
+.footer .div-msg div span {
+  margin-right: 1em;
 }

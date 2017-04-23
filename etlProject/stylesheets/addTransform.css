@@ -1,0 +1,431 @@
+/* line 5, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, E:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/addTransform.scss */
+body {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ffffef;
+  font-family: verdana;
+}
+
+/* line 10, ../sass/addTransform.scss */
+a {
+  color: #666666;
+  text-decoration: none;
+}
+
+/* line 14, ../sass/addTransform.scss */
+a:hover {
+  color: #000000;
+  cursor: normal;
+}
+
+/* line 18, ../sass/addTransform.scss */
+.header {
+  display: flex;
+  align-items: center;
+}
+/* line 21, ../sass/addTransform.scss */
+.header .head-trans {
+  flex: 20;
+}
+/* line 23, ../sass/addTransform.scss */
+.header .head-trans .trans-name {
+  font-size: 32px;
+  font-family: verdana;
+}
+/* line 28, ../sass/addTransform.scss */
+.header .window-tool {
+  flex: 1;
+}
+/* line 30, ../sass/addTransform.scss */
+.header .window-tool div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+}
+/* line 38, ../sass/addTransform.scss */
+.header .window-tool div i {
+  font-size: 1.2em;
+}
+/* line 42, ../sass/addTransform.scss */
+.header .window-tool div:hover {
+  background: #3d3d3d;
+  color: #ffffff;
+}
+
+/* line 48, ../sass/addTransform.scss */
+.line {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+/* line 52, ../sass/addTransform.scss */
+.line i {
+  border-radius: 50%;
+  border: 0;
+}
+/* line 56, ../sass/addTransform.scss */
+.line i:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 61, ../sass/addTransform.scss */
+.containner {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #bfbfbf;
+  height: 400px;
+  margin-top: 30px;
+}
+/* line 67, ../sass/addTransform.scss */
+.containner .div-start {
+  width: 75%;
+  margin-top: 50px;
+}
+/* line 70, ../sass/addTransform.scss */
+.containner .div-start .input-trans-name {
+  display: flex;
+  line-height: 1.8em;
+}
+/* line 73, ../sass/addTransform.scss */
+.containner .div-start .input-trans-name label {
+  flex: 0.8;
+  margin-right: 2em;
+  font-weight: bold;
+  text-align: right;
+}
+/* line 79, ../sass/addTransform.scss */
+.containner .div-start .input-trans-name input {
+  flex: 1.5;
+  font-family: verdana MicrosoftYaHei STHeiti;
+  text-indent: 0.4em;
+  border-radius: 2px;
+  border: 1px solid #a3a3a3;
+}
+/* line 87, ../sass/addTransform.scss */
+.containner .div-start .input-trans-describe {
+  display: flex;
+  line-height: 1.8em;
+  margin-top: 0.3em;
+}
+/* line 91, ../sass/addTransform.scss */
+.containner .div-start .input-trans-describe label {
+  flex: 0.8;
+  margin-right: 2em;
+  font-weight: bold;
+  text-align: right;
+}
+/* line 97, ../sass/addTransform.scss */
+.containner .div-start .input-trans-describe textarea {
+  flex: 1.5;
+  font-family: verdana MicrosoftYaHei STHeiti;
+  border-radius: 2px;
+  border: 1px solid #a3a3a3;
+}
+/* line 105, ../sass/addTransform.scss */
+.containner .div-start .next-page {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 110, ../sass/addTransform.scss */
+.containner .div-start .next-page div {
+  display: flex;
+  color: black;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  align-items: center;
+  justify-content: center;
+}
+/* line 118, ../sass/addTransform.scss */
+.containner .div-start .next-page div i {
+  font-size: 1.1em;
+}
+/* line 122, ../sass/addTransform.scss */
+.containner .div-start .next-page div:hover {
+  transition: 1s;
+  background: #3d3d3d;
+  color: #ffffff;
+}
+/* line 129, ../sass/addTransform.scss */
+.containner .div-deal-before {
+  width: 95%;
+  margin-top: 35px;
+}
+/* line 132, ../sass/addTransform.scss */
+.containner .div-deal-before .div-div-deal-before {
+  display: flex;
+}
+/* line 134, ../sass/addTransform.scss */
+.containner .div-deal-before .div-div-deal-before .input-source-before {
+  max-height: 100%;
+  flex: 1;
+}
+/* line 137, ../sass/addTransform.scss */
+.containner .div-deal-before .div-div-deal-before .input-source-before span {
+  line-height: 2.3em;
+}
+/* line 140, ../sass/addTransform.scss */
+.containner .div-deal-before .div-div-deal-before .input-source-before textarea {
+  width: 100%;
+  font-family: verdana MicrosoftYaHei STHeiti;
+  border-radius: 2px;
+  border: 1px solid #a3a3a3;
+}
+/* line 147, ../sass/addTransform.scss */
+.containner .div-deal-before .div-div-deal-before .input-target-before {
+  max-height: 100%;
+  flex: 1;
+  margin-left: 0.5em;
+}
+/* line 151, ../sass/addTransform.scss */
+.containner .div-deal-before .div-div-deal-before .input-target-before span {
+  line-height: 2.3em;
+}
+/* line 154, ../sass/addTransform.scss */
+.containner .div-deal-before .div-div-deal-before .input-target-before textarea {
+  width: 100%;
+  font-family: verdana MicrosoftYaHei STHeiti;
+  border-radius: 2px;
+  border: 1px solid #a3a3a3;
+}
+/* line 162, ../sass/addTransform.scss */
+.containner .div-deal-before .next-page {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 167, ../sass/addTransform.scss */
+.containner .div-deal-before .next-page div {
+  display: flex;
+  color: black;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  align-items: center;
+  justify-content: center;
+}
+/* line 175, ../sass/addTransform.scss */
+.containner .div-deal-before .next-page div i {
+  font-size: 1.1em;
+}
+/* line 179, ../sass/addTransform.scss */
+.containner .div-deal-before .next-page div:hover {
+  transition: 1s;
+  background: #3d3d3d;
+  color: #ffffff;
+}
+/* line 186, ../sass/addTransform.scss */
+.containner .div-source-setting {
+  width: 95%;
+  margin-top: 35px;
+}
+/* line 189, ../sass/addTransform.scss */
+.containner .div-source-setting .div-search-table {
+  display: flex;
+  align-items: center;
+}
+/* line 192, ../sass/addTransform.scss */
+.containner .div-source-setting .div-search-table div {
+  flex: 9;
+}
+/* line 194, ../sass/addTransform.scss */
+.containner .div-source-setting .div-search-table div input {
+  margin-left: 1.2em;
+  text-indent: 1em;
+  line-height: 2em;
+  border-radius: 50px;
+  border: 1px solid #a3a3a3;
+}
+/* line 201, ../sass/addTransform.scss */
+.containner .div-source-setting .div-search-table div input:focus {
+  outline: 0;
+  border: 1px solid #97bbe4 !important;
+  box-shadow: 0px 0px 5px #6FA1D9 !important;
+}
+/* line 207, ../sass/addTransform.scss */
+.containner .div-source-setting .div-search-table span {
+  flex: 1;
+  line-height: 2em;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #d9534e;
+  color: #fff;
+}
+/* line 218, ../sass/addTransform.scss */
+.containner .div-source-setting .div-search-table span:hover {
+  background-color: #c9312b;
+  cursor: pointer;
+}
+/* line 223, ../sass/addTransform.scss */
+.containner .div-source-setting .div-column-name {
+  margin-top: 1em;
+}
+/* line 225, ../sass/addTransform.scss */
+.containner .div-source-setting .div-column-name .select-num {
+  display: inline-block;
+  color: #f9534e;
+  font-family: SimSun;
+  width: 2em;
+  text-align: right;
+}
+/* line 232, ../sass/addTransform.scss */
+.containner .div-source-setting .div-column-name .Columns {
+  font-size: 1.8em;
+}
+/* line 236, ../sass/addTransform.scss */
+.containner .div-source-setting .div-columns {
+  margin-top: 1em;
+  width: 95%;
+  margin-left: 2em;
+  border: 1px red solid;
+}
+/* line 241, ../sass/addTransform.scss */
+.containner .div-source-setting .div-columns div {
+  border-radius: 30px;
+  border: 1px solid black;
+  font-family: commic;
+  display: inline-block;
+}
+/* line 252, ../sass/addTransform.scss */
+.containner .div-deal-after {
+  width: 95%;
+  margin-top: 35px;
+}
+/* line 255, ../sass/addTransform.scss */
+.containner .div-deal-after .div-div-deal-after {
+  display: flex;
+}
+/* line 257, ../sass/addTransform.scss */
+.containner .div-deal-after .div-div-deal-after .input-source-after {
+  max-height: 100%;
+  flex: 1;
+}
+/* line 260, ../sass/addTransform.scss */
+.containner .div-deal-after .div-div-deal-after .input-source-after span {
+  line-height: 2.3em;
+}
+/* line 263, ../sass/addTransform.scss */
+.containner .div-deal-after .div-div-deal-after .input-source-after textarea {
+  width: 100%;
+  font-family: verdana MicrosoftYaHei STHeiti;
+  border-radius: 2px;
+  border: 1px solid #a3a3a3;
+}
+/* line 270, ../sass/addTransform.scss */
+.containner .div-deal-after .div-div-deal-after .input-target-after {
+  max-height: 100%;
+  flex: 1;
+  margin-left: 0.5em;
+}
+/* line 274, ../sass/addTransform.scss */
+.containner .div-deal-after .div-div-deal-after .input-target-after span {
+  line-height: 2.3em;
+}
+/* line 277, ../sass/addTransform.scss */
+.containner .div-deal-after .div-div-deal-after .input-target-after textarea {
+  width: 100%;
+  font-family: verdana MicrosoftYaHei STHeiti;
+  border-radius: 2px;
+  border: 1px solid #a3a3a3;
+}
+/* line 285, ../sass/addTransform.scss */
+.containner .div-deal-after .next-page {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 290, ../sass/addTransform.scss */
+.containner .div-deal-after .next-page div {
+  display: flex;
+  color: black;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  align-items: center;
+  justify-content: center;
+}
+/* line 298, ../sass/addTransform.scss */
+.containner .div-deal-after .next-page div i {
+  font-size: 1.1em;
+}
+/* line 302, ../sass/addTransform.scss */
+.containner .div-deal-after .next-page div:hover {
+  transition: 1s;
+  background: #3d3d3d;
+  color: #ffffff;
+}

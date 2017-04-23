@@ -21,31 +21,26 @@ a:hover{
 			font-size: 32px;
 			font-family: verdana;
 		}
-		a{
-			margin-left: 1em;
-		}
 	}
 	.window-tool{
 		display: flex;
 		flex: 1;
-		a{
-			display: flex;
-			align-items: center;
-			border: 1px solid gray;
-			border-radius:50%;
-			width: 2.5em;
-			height: 2.5em;
-			i{
-				text-align:center;
-				font-size: 1.2em;
-				margin-left:0.33em;
-			}
+		align-items: center;
+		justify-content: center;
+		border: 1px solid gray;
+		border-radius:50%;
+		width: 2.5em;
+		height: 2.5em;
+		i{
+			text-align:center;
+			font-size: 1.2em;
 		}
-		a:hover{
-			background: #3d3d3d;
-			color: #ffffff;
-		}
-	}	
+	}
+	.window-tool:hover{
+		transition: 1s;
+		background: #3d3d3d;
+		color: #ffffff;
+	}
 }
 .containner{
 	display: flex;
@@ -83,19 +78,19 @@ a:hover{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		a{
+		div{
 			display: flex;
 			color: black;
 			border-radius: 50%;
 			width: 2.7em;
 			height: 2.7em;
 			align-items: center;
+			justify-content: center;
 			i{
 				font-size: 1.1em;
-				margin-left: 0.4em;
 			}
 		}
-		a:hover{
+		div:hover{
 			transition: 1s;
 			background: #3d3d3d;
 			color: #ffffff;

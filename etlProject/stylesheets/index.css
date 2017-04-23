@@ -103,48 +103,59 @@ a:hover {
   float: right;
   margin-top: 1em;
 }
+/* line 33, ../sass/index.scss */
+.header .window-tool i {
+  font-size: 1.2em;
+  color: #666666;
+  margin-left: 0.5em;
+}
+/* line 38, ../sass/index.scss */
+.header .window-tool i:hover {
+  color: #000000;
+  cursor: pointer;
+}
 
-/* line 35, ../sass/index.scss */
+/* line 44, ../sass/index.scss */
 .containner {
   margin-top: 50px;
   height: 430px;
 }
-/* line 38, ../sass/index.scss */
+/* line 47, ../sass/index.scss */
 .containner .trans-table {
   table-layout: fixed;
   width: 100%;
 }
-/* line 41, ../sass/index.scss */
+/* line 50, ../sass/index.scss */
 .containner .trans-table .trans-item {
   border-bottom: 1px solid #f1f1f1;
   line-height: 1.6em;
 }
-/* line 44, ../sass/index.scss */
+/* line 53, ../sass/index.scss */
 .containner .trans-table .trans-item td {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 49, ../sass/index.scss */
+/* line 58, ../sass/index.scss */
 .containner .trans-table .trans-item .topic-name {
   font-family: verdana;
   text-indent: 1em;
   width: 23%;
 }
-/* line 57, ../sass/index.scss */
+/* line 66, ../sass/index.scss */
 .containner .trans-table .trans-item .trans-name {
   font-family: verdana;
   text-indent: 1.5em;
   width: 62%;
 }
-/* line 65, ../sass/index.scss */
+/* line 74, ../sass/index.scss */
 .containner .trans-table .trans-item .trans-state {
-  text-indent: 2em;
   width: 15%;
+  text-align: center;
   font-family: Verdana;
 }
 
-/* line 74, ../sass/index.scss */
+/* line 83, ../sass/index.scss */
 .footer .div-msg {
   margin-bottom: 0.4em;
   margin-top: 2em;
@@ -152,17 +163,17 @@ a:hover {
   font-family: impact;
   display: flex;
 }
-/* line 80, ../sass/index.scss */
+/* line 89, ../sass/index.scss */
 .footer .div-msg .div-div-msg {
   color: gray;
   font-size: 1.3em;
 }
-/* line 84, ../sass/index.scss */
+/* line 93, ../sass/index.scss */
 .footer .div-msg div {
   flex: 1;
   text-align: center;
 }
-/* line 87, ../sass/index.scss */
+/* line 96, ../sass/index.scss */
 .footer .div-msg div span {
   margin-right: 1em;
 }
