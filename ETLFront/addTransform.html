@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Transform</title>
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="../etlProject/stylesheets/addTransform.css">
+</head>
+<body>
+	<div class="header">
+		<div class="head-trans">
+			<span class="trans-name">Transform Setting</span>
+		</div>
+		<div class = "window-tool">
+			<div>
+				<i class="icon-cancel"></i>
+			</div>
+		</div>
+	</div>
+	<div class="line">
+		<i class="icon-circle-thin" id="start"></i>
+		<span>----------------</span>
+		<i class="icon-circle-thin" id="trans-before"></i>
+		<span>----------------</span>
+		<i class="icon-circle-thin" id="source-setting"></i>
+		<span>----------------</span>
+		<i class="icon-circle-thin" id="target-setting"></i>
+		<span>----------------</span>
+		<i class="icon-circle-thin" id="trans-after"></i>
+		<span>----------------</span>
+		<i class="icon-circle-thin" id="ending"></i>
+	</div>
+	<div class="containner">
+		<div class="div-start" style="display:none;">
+			<div class="input-trans-name">
+				<label for="trans-name">Transform Name:</label>
+				<input type="text" name="trans-name">
+			</div>
+			<div class="input-trans-describe">
+				<label for="trans-describe">Transform Describe:</label>
+				<textarea name="trans-describe" id="trans-describe" cols="30" rows="10"></textarea>
+			</div>
+			<div class="next-page">
+				<div>
+					<i class="icon-right-outline"></i>
+				</div>
+			</div>
+		</div>
+		<div class="div-deal-before" style="display:none">
+			<div class="div-div-deal-before">
+				<div class="input-source-before">
+					<span>
+						script for source before extract
+						<label for="text-source-before">
+							<i class="icon-pencil"></i>
+						</label>
+					</span>
+					<textarea name="text-source-before" id="text-source-before" rows="15"></textarea>
+				</div>
+				<div class="input-target-before">
+					<span>
+						script for target before extract
+						<label for="text-target-before">
+							<i class="icon-pencil"></i>
+						</label>
+					</span>
+					<textarea name="text-target-before" id="text-target-before" rows="15"></textarea>
+				</div>
+			</div>
+			<div class="next-page">
+				<div>
+					<i class="icon-right-outline"></i>
+				</div>
+			</div>	
+		</div>
+		<div class="div-source-setting" >
+			<div class="div-search-table">
+				<div>
+					<input type="text" placeholder="table name">
+				</div>
+				<span>Select all</span>
+			</div>
+			<div class="div-column-name">
+				<div class="select-num">15</div>
+				<span class="Columns">Columns:</span>
+			</div>
+			<div class="div-columns">
+				<div>column1</div>
+				<div>column2</div>
+				<div>column3</div>
+				<div>column4</div>
+				<div>column5</div>
+				<div>column6</div>
+				<div>column7</div>
+				<div>column8&#9670;</div>
+				<div>column9</div>
+				<div>column10</div>
+				<div>column11</div>				
+			</div>
+			<!-- <div class="next-page">
+				<div>
+					<i class="icon-right-outline"></i>
+				</div>
+			</div> -->
+		</div>
+		<div class="div-target-setting" style="display:none">
+
+		</div>
+		<div class="div-deal-after" style="display:none">
+			<div class="div-div-deal-after">
+				<div class="input-source-after">
+					<span>
+						script for source after extract
+						<label for="text-source-after">
+							<i class="icon-pencil"></i>
+						</label>
+					</span>
+					<textarea name="text-source-after" id="text-source-after" rows="15"></textarea>
+				</div>
+				<div class="input-target-after">
+					<span>
+						script for target after extract
+						<label for="text-target-after">
+							<i class="icon-pencil"></i>
+						</label>
+					</span>
+					<textarea name="text-target-after" id="text-target-after" rows="15"></textarea>
+				</div>
+			</div>
+			<div class="next-page">
+				<div>
+					<i class="icon-right-outline"></i>
+				</div>
+			</div>	
+		</div>
+		<div class="div-ending" style="display:none">
+
+		</div>
+	</div>
+</body>
+</html>
