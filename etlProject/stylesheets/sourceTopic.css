@@ -99,6 +99,10 @@ a:hover {
 .header .window-tool {
   display: flex;
   flex: 1;
+}
+/* line 28, ../sass/sourceTopic.scss */
+.header .window-tool div {
+  display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid gray;
@@ -106,19 +110,18 @@ a:hover {
   width: 2.5em;
   height: 2.5em;
 }
-/* line 34, ../sass/sourceTopic.scss */
-.header .window-tool i {
-  text-align: center;
+/* line 36, ../sass/sourceTopic.scss */
+.header .window-tool div i {
   font-size: 1.2em;
 }
-/* line 39, ../sass/sourceTopic.scss */
-.header .window-tool:hover {
-  transition: 1s;
+/* line 40, ../sass/sourceTopic.scss */
+.header .window-tool div:hover {
   background: #3d3d3d;
   color: #ffffff;
+  transition: 1s;
 }
 
-/* line 45, ../sass/sourceTopic.scss */
+/* line 47, ../sass/sourceTopic.scss */
 .containner {
   display: flex;
   justify-content: center;
@@ -126,25 +129,25 @@ a:hover {
   height: 500px;
   font-family: verdana;
 }
-/* line 52, ../sass/sourceTopic.scss */
+/* line 54, ../sass/sourceTopic.scss */
 .containner .div-source-connection {
   margin-top: 50px;
   width: 75%;
 }
-/* line 55, ../sass/sourceTopic.scss */
+/* line 57, ../sass/sourceTopic.scss */
 .containner .div-source-connection .div-input {
   display: flex;
   line-height: 1.8em;
   margin-top: 0.8em;
 }
-/* line 59, ../sass/sourceTopic.scss */
+/* line 61, ../sass/sourceTopic.scss */
 .containner .div-source-connection .div-input .label-source {
   flex: 0.8;
   margin-right: 2em;
   font-weight: bold;
   text-align: right;
 }
-/* line 65, ../sass/sourceTopic.scss */
+/* line 67, ../sass/sourceTopic.scss */
 .containner .div-source-connection .div-input input {
   flex: 1.5;
   font-family: verdana;
@@ -152,14 +155,14 @@ a:hover {
   border-radius: 2px;
   border: 1px solid #a3a3a3;
 }
-/* line 75, ../sass/sourceTopic.scss */
+/* line 77, ../sass/sourceTopic.scss */
 .containner .next-page {
   margin-top: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* line 81, ../sass/sourceTopic.scss */
+/* line 83, ../sass/sourceTopic.scss */
 .containner .next-page div {
   display: flex;
   color: black;
@@ -169,11 +172,11 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-/* line 89, ../sass/sourceTopic.scss */
+/* line 91, ../sass/sourceTopic.scss */
 .containner .next-page div i {
   font-size: 1.1em;
 }
-/* line 93, ../sass/sourceTopic.scss */
+/* line 95, ../sass/sourceTopic.scss */
 .containner .next-page div:hover {
   transition: 1s;
   background: #3d3d3d;

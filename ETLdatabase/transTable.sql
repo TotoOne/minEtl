@@ -1,6 +1,6 @@
 create table transControl(					#转换状态
+	transid int not null primary key,
 	topicname varchar(40), 
-	transname varchar(40),
 	transstate varchar(1), 					#0:没做 1:正在做 2:刚做完
 	starttime datetime						#做完了更新时间为endTime，做之前更新为startTime
 ) charset = utf8;

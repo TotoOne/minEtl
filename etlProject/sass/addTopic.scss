@@ -25,20 +25,24 @@ a:hover{
 	.window-tool{
 		display: flex;
 		flex: 1;
-		align-items: center;
-		justify-content: center;
-		border: 1px solid gray;
-		border-radius:50%;
-		width: 2.5em;
-		height: 2.5em;		
-		i{
-			font-size: 1.2em;
+		div{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid gray;
+			border-radius:50%;
+			width: 2.5em;
+			height: 2.5em;
+			i{
+				font-size: 1.2em;
+			}			
+		}	
+		div:hover{
+			background: #3d3d3d;
+			color: #ffffff;
+			transition: 1s;
 		}
 	}	
-	.window-tool:hover{
-		background: #3d3d3d;
-		color: #ffffff;
-	}
 }
 .containner{
 	// width:100%;
@@ -50,7 +54,7 @@ a:hover{
 	font-family: verdana;
 	.div-add-topic{
 		margin-top: 100px;
-		width: 75%;
+		width: 800px;
 		.input-div-name{
 			display: flex;
 			line-height: 1.8em;
@@ -61,11 +65,18 @@ a:hover{
 				text-align: right;
 			}
 			#input-topic-name{
-				flex: 1.5;
+				flex: 1.2;
 				font-family: verdana;
 				text-indent: 0.4em;
 				border-radius: 2px;
 				border: 1px solid #a3a3a3;
+			}
+			.topic-name-error{
+				// flex: 0.3;
+				min-width: 12em;
+				font-family: verdana;
+				margin-left: 2em;
+				color: #f9534e;
 			}
 		}
 		.toggle-options{
@@ -79,7 +90,7 @@ a:hover{
 				text-align: right;
 			}
 			.toggle-div{
-				flex: 1.5;
+				flex: 1.2;
 				select{
 					height: 100%;
 					width: 100%;
@@ -91,10 +102,15 @@ a:hover{
 					}
 				}
 			}
+			span{
+				// flex: 0.3;
+				min-width: 12em;
+				margin-left: 2em;
+			}
 		}
 	}
 	.next-page{
-		margin-top: 5em;
+		margin-top: 7em;
 		display: flex;
 		justify-content: center;
 		align-items: center;

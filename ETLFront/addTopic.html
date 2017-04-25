@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>topic</title>
+	<title>add topic</title>
 	<link rel="stylesheet" href="css/font.css">
 	<link rel="stylesheet" href="../etlProject/stylesheets/addTopic.css">
 </head>
@@ -13,7 +13,9 @@
 				<span class="topic-name">Connection Settings</span>
 			</div>
 			<div class = "window-tool">
-				<i class="icon-cancel"></i>
+				<div>
+					<i class="icon-cancel"></i>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -22,6 +24,7 @@
 			<div class="input-div-name">
 				<label for="input-topic-name" class="label-topic-name">topic name:</label>
 				<input type="text" name = "input-topic-name" id="input-topic-name">
+				<span class="topic-name-error"></span>
 			</div>
 			<div class="toggle-options">
 				<label class="toggle">Choose topic type:</label>
@@ -35,6 +38,7 @@
 						</li>
 					</ul> -->
 				</div>
+				<span></span>
 			</div>
 			<div class="next-page">
 				<div>
@@ -44,4 +48,6 @@
 		</div>	
 	</div>
 </body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/addTopic.js"></script>
 </html>

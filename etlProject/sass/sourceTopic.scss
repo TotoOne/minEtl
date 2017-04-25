@@ -25,21 +25,23 @@ a:hover{
 	.window-tool{
 		display: flex;
 		flex: 1;
-		align-items: center;
-		justify-content: center;
-		border: 1px solid gray;
-		border-radius:50%;
-		width: 2.5em;
-		height: 2.5em;
-		i{
-			text-align:center;
-			font-size: 1.2em;
+		div{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid gray;
+			border-radius:50%;
+			width: 2.5em;
+			height: 2.5em;
+			i{
+				font-size: 1.2em;
+			}			
+		}	
+		div:hover{
+			background: #3d3d3d;
+			color: #ffffff;
+			transition: 1s;
 		}
-	}
-	.window-tool:hover{
-		transition: 1s;
-		background: #3d3d3d;
-		color: #ffffff;
 	}
 }
 .containner{
