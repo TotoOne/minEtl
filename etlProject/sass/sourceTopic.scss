@@ -49,18 +49,18 @@ a:hover{
 	justify-content: center;
 	margin-top: 30px;
 	// background-color: #ffdede;
-	height: 500px;
+	height: 450px;
 	font-family: verdana;
 	.div-source-connection{
 		margin-top: 50px;
-		width: 75%;
+		width: 65%;
 		.div-input{
 			display: flex;
 			line-height: 1.8em;
 			margin-top: 0.8em;
 			.label-source{
-				flex:0.8;
-				margin-right: 2em;
+				flex:0.6;
+				margin-right: 1em;
 				font-weight: bold;
 				text-align: right;
 			}
@@ -75,27 +75,37 @@ a:hover{
 	}
 
 	.next-page{
-		// border: 1px solid black;
-		margin-top: 5em;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		div{
+		margin-top: 7em;
+		.div-error{
 			display: flex;
-			color: black;
-			border-radius: 50%;
-			width: 2.7em;
-			height: 2.7em;
-			align-items: center;
 			justify-content: center;
-			i{
-				font-size: 1.1em;
+			align-items: center;
+			span{
+				color: #d9534f;
 			}
 		}
-		div:hover{
-			transition: 1s;
-			background: #3d3d3d;
-			color: #ffffff;
+		.next-icon{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 1em;
+			div{
+				display: flex;
+				color: black;
+				border-radius: 50%;
+				width: 2.5em;
+				height: 2.5em;
+				align-items: center;
+				justify-content: center;
+				i{
+					font-size: 1.1em;
+				}
+			}
+			div:hover{
+				transition: 1s;
+				background: #3d3d3d;
+				color: #ffffff;
+			}
 		}	
 	}
 }

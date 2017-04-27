@@ -50,7 +50,7 @@ a:hover{
 	justify-content: center;
 	margin-top: 30px;
 	// background-color: #ffdede;
-	height: 500px;
+	height: 450px;
 	font-family: verdana;
 	.div-add-topic{
 		margin-top: 100px;
@@ -63,6 +63,7 @@ a:hover{
 				margin-right: 2em;
 				font-weight: bold;
 				text-align: right;
+				min-width: 15em;
 			}
 			#input-topic-name{
 				flex: 1.2;
@@ -70,13 +71,6 @@ a:hover{
 				text-indent: 0.4em;
 				border-radius: 2px;
 				border: 1px solid #a3a3a3;
-			}
-			.topic-name-error{
-				// flex: 0.3;
-				min-width: 12em;
-				font-family: verdana;
-				margin-left: 2em;
-				color: #f9534e;
 			}
 		}
 		.toggle-options{
@@ -88,6 +82,7 @@ a:hover{
 				margin-right: 2em;
 				font-weight: bold;
 				text-align: right;
+				min-width: 15em;
 			}
 			.toggle-div{
 				flex: 1.2;
@@ -102,34 +97,40 @@ a:hover{
 					}
 				}
 			}
-			span{
-				// flex: 0.3;
-				min-width: 12em;
-				margin-left: 2em;
-			}
 		}
 	}
 	.next-page{
 		margin-top: 7em;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		div{
+		.div-error{
 			display: flex;
-			color: black;
-			border-radius: 50%;
-			width: 2.5em;
-			height: 2.5em;
-			align-items: center;
 			justify-content: center;
-			i{
-				font-size: 1.1em;
+			align-items: center;
+			span{
+				color: #d9534f;
 			}
 		}
-		div:hover{
-			transition: 1s;
-			background: #3d3d3d;
-			color: #ffffff;
+		.next-icon{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 1em;
+			div{
+				display: flex;
+				color: black;
+				border-radius: 50%;
+				width: 2.5em;
+				height: 2.5em;
+				align-items: center;
+				justify-content: center;
+				i{
+					font-size: 1.1em;
+				}
+			}
+			div:hover{
+				transition: 1s;
+				background: #3d3d3d;
+				color: #ffffff;
+			}
 		}	
 	}
 }

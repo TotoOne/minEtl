@@ -9,9 +9,11 @@ def addtopicname():
     result = json.dumps("")
     jsdic = {"status": 300}
     if request.method == 'POST':
-        topicname = request.form.get("topicname")
-        topictype = request.form.get("topictype")
-        print(topicname)
+        data = request.get_json()
+        print(data)
+        # topictype = request.form.get("topictype")
+        topicname = json.loads(data)["topicname"]
+        topictype = json.loads(data)["topictype"]
         try:
             rs = dbao.findTopicExist(topicname)
             if rs[0][0] > 0:

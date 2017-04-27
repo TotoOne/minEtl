@@ -126,7 +126,7 @@ a:hover {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  height: 500px;
+  height: 450px;
   font-family: verdana;
 }
 /* line 55, ../sass/addTopic.scss */
@@ -145,8 +145,9 @@ a:hover {
   margin-right: 2em;
   font-weight: bold;
   text-align: right;
+  min-width: 15em;
 }
-/* line 67, ../sass/addTopic.scss */
+/* line 68, ../sass/addTopic.scss */
 .containner .div-add-topic .input-div-name #input-topic-name {
   flex: 1.2;
   font-family: verdana;
@@ -154,31 +155,25 @@ a:hover {
   border-radius: 2px;
   border: 1px solid #a3a3a3;
 }
-/* line 74, ../sass/addTopic.scss */
-.containner .div-add-topic .input-div-name .topic-name-error {
-  min-width: 12em;
-  font-family: verdana;
-  margin-left: 2em;
-  color: #f9534e;
-}
-/* line 82, ../sass/addTopic.scss */
+/* line 76, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options {
   display: flex;
   line-height: 1.8em;
   margin-top: 0.3em;
 }
-/* line 86, ../sass/addTopic.scss */
+/* line 80, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options .toggle {
   flex: 0.8;
   margin-right: 2em;
   font-weight: bold;
   text-align: right;
+  min-width: 15em;
 }
-/* line 92, ../sass/addTopic.scss */
+/* line 87, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options .toggle-div {
   flex: 1.2;
 }
-/* line 94, ../sass/addTopic.scss */
+/* line 89, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options .toggle-div select {
   height: 100%;
   width: 100%;
@@ -186,24 +181,33 @@ a:hover {
   border-radius: 2px;
   border: 1px solid #a3a3a3;
 }
-/* line 100, ../sass/addTopic.scss */
+/* line 95, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options .toggle-div select option {
   text-align: center;
 }
-/* line 105, ../sass/addTopic.scss */
-.containner .div-add-topic .toggle-options span {
-  min-width: 12em;
-  margin-left: 2em;
-}
-/* line 112, ../sass/addTopic.scss */
+/* line 102, ../sass/addTopic.scss */
 .containner .next-page {
   margin-top: 7em;
+}
+/* line 104, ../sass/addTopic.scss */
+.containner .next-page .div-error {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/* line 108, ../sass/addTopic.scss */
+.containner .next-page .div-error span {
+  color: #d9534f;
+}
+/* line 112, ../sass/addTopic.scss */
+.containner .next-page .next-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
 /* line 117, ../sass/addTopic.scss */
-.containner .next-page div {
+.containner .next-page .next-icon div {
   display: flex;
   color: black;
   border-radius: 50%;
@@ -213,11 +217,11 @@ a:hover {
   justify-content: center;
 }
 /* line 125, ../sass/addTopic.scss */
-.containner .next-page div i {
+.containner .next-page .next-icon div i {
   font-size: 1.1em;
 }
 /* line 129, ../sass/addTopic.scss */
-.containner .next-page div:hover {
+.containner .next-page .next-icon div:hover {
   transition: 1s;
   background: #3d3d3d;
   color: #ffffff;
