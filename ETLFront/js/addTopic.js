@@ -20,8 +20,9 @@ var host = "http://127.0.0.1:5000";
 		var data = {};
 		data.topicname = topicname;
 		data.topictype = topictype;
-		sendMsg = JSON.stringify(data);
-		console.log(sendMsg);
+		// sendMsg = JSON.stringify(data);
+		// console.log(sendMsg);
+		// console.log(data)
 		$(".icon-right-outline").removeClass("icon-right-outline").addClass("icon-spin6 animate-spin");
 		$.ajax({
 			method: "post",
@@ -30,7 +31,7 @@ var host = "http://127.0.0.1:5000";
 			// xhrFields:{
 		 //    	withCredentials: true
 			// },
-			data: sendMsg
+			data: data
 		}).done(function(result){
 			$(".icon-spin6").removeClass("icon-spin6 animate-spin").addClass("icon-right-outline");
 			if(result.status==310){

@@ -13,7 +13,9 @@
 				<span class="topic-name">Target Connection</span>
 			</div>
 			<div class = "window-tool">
-				<i class="icon-cancel"></i>
+				<div>
+					<i class="icon-cancel"></i>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -33,18 +35,27 @@
 			</div>
 			<div class="div-input">
 				<label for="input-pwd" class="label-source">Password:</label>
-				<input type="password" name="input_pwd" id="input-pwd">
+				<input type="password" name="input-pwd" id="input-pwd">
 			</div>
 			<div class="div-input">
 				<label for="input-port" class="label-source">Port:</label>
 				<input type="text" name="input-port" id ="input-port">
 			</div>
 			<div class="next-page">
-				<div>
-					<i class="icon-right-outline"></i>
+				<div class="div-error">
+					<span class="topic-name-error">&nbsp;</span>
+				</div>
+				<div class="next-icon">
+					<div>
+						<i class="icon-right-outline"></i>
+					</div>
 				</div>
 			</div>
 		</div>	
 	</div>
 </body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquery.cookies.2.2.0.min.js"></script>
+<script src="js/targetTopic.js"></script>
 </html>
