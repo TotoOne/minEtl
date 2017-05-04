@@ -5,6 +5,7 @@ from dbModule import dbconn
 
 topicModule = Blueprint('topicModule', __name__)
 
+
 @topicModule.route('/addtopicname', methods=['POST', 'GET'])
 def addtopicname():
     jsdic = {"status": 300}
@@ -28,44 +29,55 @@ def addtopicname():
     print(result)
     return result
 
-@topicModule.route('/connectionPing', methods=['POST','GET'])
-def ConnectionPing():
-    jsdic = {"status":300}
-    if request.method == 'POST':
-        addr = request.form.get("address")
-        listen = request.form.get("listen")
-        dbname = request.form.get("dbname")
-        pwd = request.form.get("pwd")
-        port = request.form.get("port")
 
-        dbinfo = {}
-        dbinfo['host'] = addr
-        dbinfo['port'] = int(port)
-        dbinfo['db'] = listen
-        dbinfo['user'] = dbname
-        dbinfo['password'] = pwd
+@topicModule.route('/connectionPing', methods=['POST', 'GET'])
+def ConnectionPing():
+    jsdic = {"status": 300}
+    if request.method == 'POST':
+        srcdata = request.form.get("srcdata")
+
+        srcSet = json.loads(srcdata)
+        print(srcSet)
+        dbinfo = dict(srcSet)
 
         print(dbinfo)
         i = dbconn.dbPing(dbinfo)
         print(i)
         if i == 1:
-            jsdic = {"status":200}
+            jsdic = {"status": 200}
         else:
-            jsdic = {"status":310}
+            jsdic = {"status": 310}
 
     result = json.dumps(jsdic)
     print(result)
     return result
 
-@topicModule.route('/addtopicsetting',methods=['POST','GET'])
+
+@topicModule.route('/addtopicsetting', methods=['POST', 'GET'])
 def addtopicsetting():
     jsdic = {"status": 300}
     if request.method == 'POST':
-        addr = request.form.get("address")
-        listen = request.form.get("listen")
-        dbname = request.form.get("dbname")
-        pwd = request.form.get("pwd")
-        port = request.form.get("port")
+        srcdata = request.form.get("srcdata")
+        topicdata = request.form.get("topicdata")
+        targetdata = request.form.get("targetdata")
+
+        print("ok")
+
+        topicInfo = json.loads(topicdata)
+        targetInfo = json.loads(targetdata)
+        type = topicInfo["topictype"]
+        name = topicInfo["topicname"]
+
+        dbinfo = dict(targetInfo)
+        print(dbinfo)
+        i = dbconn.dbPing(dbinfo)
+        print(i)
+        if i == 1:
+            jsdic = {"status": 200}
+            topicargs = (name, type, srcdata, targetdata)
+            dbao.addTopic(topicargs)
+        else:
+            jsdic = {"status": 310}
 
     result = json.dumps(jsdic)
     print(result)

@@ -4,7 +4,7 @@ from DBUtils.PooledDB import PooledDB
 
 mysqldbinfo = {
     'host' : "127.0.0.1",
-	'port' : 3306,
+	'port' : '3306',
 	'user' : "root",
 	'password' : "python",
 	'db' : "etlproject"
@@ -21,22 +21,24 @@ class PTConnectionPool(object):
 
     def __getConn(self, db_info):
         if self.__pool is None:
-            if db_info['port'] == 3306:
+            if db_info['port'] == '3306':
                 self.__pool = PooledDB(creator=pymysql, mincached=10, maxcached=10,
                                        maxshared=20, maxconnections=100,
                                        blocking=True, maxusage=0,
-                                       host=db_info['host'], port=db_info['port'],
+                                       host=db_info['host'], port=int(db_info['port']),
                                        user=db_info['user'], passwd=db_info['password'],
                                        db=db_info['db'])
-            elif db_info['port'] == 1521:
+            elif db_info['port'] == '1521':
                 self.__pool = PooledDB(creator=cx_Oracle, mincached=10, maxcached=10,
                                        maxshared=20, maxconnections=100,
                                        blocking=True, maxusage=0,
                                        user=db_info['user'], password=db_info['password'],
                                        dsn="%s:%s/%s" % (db_info['host'],
-                                                         db_info['port'], db_info['db']))
+                                                         int(db_info['port']), db_info['db']))
         return self.__pool.connection()
 
+    def __del__(self):
+        pass
     def __exit__(self, type, value, trace):
         self.cursor.close()
         self.conn.close()
@@ -64,6 +66,7 @@ def select(sql, args, size=None):
             rs = cur.fetchmany(size)
         else:
             rs = cur.fetchall()
+        cur.close()
         return rs
 
 
@@ -73,6 +76,8 @@ def execute(sql, args):
             cur = db.cursor
             cur.execute(sql.replace('?', '%s'), args)
             affected = cur.rowcount
+            db.conn.commit()
+            cur.close()
         except BaseException as e:
             raise
         return affected

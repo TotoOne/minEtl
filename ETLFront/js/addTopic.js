@@ -3,6 +3,7 @@ var host = "http://127.0.0.1:5000";
 (function(){
 
 	$(".icon-cancel").on("click",function(){
+		localStorage.removeItem("topicInfo");
 		location="index.html"
 	});
 
@@ -37,7 +38,9 @@ var host = "http://127.0.0.1:5000";
 			if(result.status==310){
 				$(".topic-name-error").text("topic name already existed");
 			}else if(result.status==200){
-				location = "sourceTopic.html"+"?topicname="+topicname+"&topictype="+topictype;
+				localStorage.removeItem("topicInfo");
+				localStorage.setItem("topicInfo",JSON.stringify(data));
+				location = "sourceTopic.html";
 			}else{
 				$(".topic-name-error").text("connection error");
 			}

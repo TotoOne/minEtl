@@ -3,12 +3,21 @@ var host = "http://127.0.0.1:5000";
 (function(){
 
 	$(".icon-cancel").on("click",function(){
+		localStorage.removeItem("srcConn");
+		localStorage.removeItem("topicInfo");
 		location="index.html";
-		cookie("srcConn",null);
 	});
 
-	var topicname = window.location.search.split("&")[0].split("=")[1];
-	var topictype = window.location.search.split("&")[1].split("=")[1];
+	// var local = window.location.search;
+	var topicInfo = JSON.parse(localStorage.getItem("topicInfo"));
+	if(topicInfo != null){
+		var topictype = topicInfo["topictype"];
+		var topicname = topicInfo["topicname"];
+	}
+	// if(local.indexOf("&") > 0 && local.indexOf("=") > 0){
+	// 	topicname = window.location.search.split("&")[0].split("=")[1];
+	// 	topictype = window.location.search.split("&")[1].split("=")[1];
+	// }
 
 	if(topictype == "1"){
 		$("#input-port").val("1521");
@@ -44,12 +53,14 @@ var host = "http://127.0.0.1:5000";
 		}
 
 		var data = {};
-		data.address = address;
-		data.listen = listen;
-		data.dbname = dbname;
-		data.pwd = pwd;
-		data.port = Number(port);
+		data.host = address;
+		data.db = listen;
+		data.user = dbname;
+		data.password = pwd;
+		data.port = port;
 		console.log(data);
+		sendMsg = {};
+		sendMsg.srcdata = JSON.stringify(data);
 
 		// var data = "topicname=" + topicname + "&topictype=" + topictype;
 		$(".icon-right-outline").removeClass("icon-right-outline").addClass("icon-spin6 animate-spin");
@@ -58,18 +69,18 @@ var host = "http://127.0.0.1:5000";
 			// url: host+"/topicModule/addtopicname",
 			url: host + "/topicModule/connectionPing",
 			dataType: "json",
-			// xhrFields:{
-		 //    	withCredentials: true
-			// },
-			data: data
+			xhrFields:{
+				withCredentials: true
+			},
+			data: sendMsg
 		}).done(function(result){
 			$(".icon-spin6").removeClass("icon-spin6 animate-spin").addClass("icon-right-outline");
 			if(result.status==310){
 				$(".topic-name-error").text("source connection setting error");
 			}else if(result.status==200){
-				$.cookies.set("a","hello",{expires:1,path:"/",secure:true});
-				console.log($.cookies.get("a"));
-				// location = "targetTopic.html?"+"topicname="+topicname+"&topictype="+topictype;
+				localStorage.removeItem("srcConn");
+				localStorage.setItem("srcConn",JSON.stringify(data));
+				location = "targetTopic.html";
 			}else{
 				$(".topic-name-error").text("connection error");
 			}

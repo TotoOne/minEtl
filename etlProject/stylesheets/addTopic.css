@@ -194,19 +194,20 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 1em;
 }
-/* line 108, ../sass/addTopic.scss */
+/* line 109, ../sass/addTopic.scss */
 .containner .next-page .div-error span {
   color: #d9534f;
 }
-/* line 112, ../sass/addTopic.scss */
+/* line 113, ../sass/addTopic.scss */
 .containner .next-page .next-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1em;
 }
-/* line 117, ../sass/addTopic.scss */
+/* line 118, ../sass/addTopic.scss */
 .containner .next-page .next-icon div {
   display: flex;
   color: black;
@@ -216,11 +217,11 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-/* line 125, ../sass/addTopic.scss */
+/* line 126, ../sass/addTopic.scss */
 .containner .next-page .next-icon div i {
   font-size: 1.1em;
 }
-/* line 129, ../sass/addTopic.scss */
+/* line 130, ../sass/addTopic.scss */
 .containner .next-page .next-icon div:hover {
   transition: 1s;
   background: #3d3d3d;

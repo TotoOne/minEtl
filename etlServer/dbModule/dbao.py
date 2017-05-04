@@ -10,8 +10,11 @@ def findAllTopic():
 
 def addTopic(args):
     sql = 'insert into topicinform(topicname,linktype,sourcelink,targetlink) values(?,?,?,?)'
-    count = dbconn.execute(sql, args)
-    print(count)
+    try:
+        count = dbconn.execute(sql, args)
+        print(count)
+    except:
+        print("db error")
     return count
 
 

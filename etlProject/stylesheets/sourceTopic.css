@@ -164,20 +164,21 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 1em;
 }
-/* line 83, ../sass/sourceTopic.scss */
+/* line 84, ../sass/sourceTopic.scss */
 .containner .next-page .div-error span {
   color: #d9534f;
   cursor: default;
 }
-/* line 88, ../sass/sourceTopic.scss */
+/* line 89, ../sass/sourceTopic.scss */
 .containner .next-page .next-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1em;
 }
-/* line 93, ../sass/sourceTopic.scss */
+/* line 94, ../sass/sourceTopic.scss */
 .containner .next-page .next-icon div {
   display: flex;
   color: black;
@@ -187,11 +188,11 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-/* line 101, ../sass/sourceTopic.scss */
+/* line 102, ../sass/sourceTopic.scss */
 .containner .next-page .next-icon div i {
   font-size: 1.1em;
 }
-/* line 105, ../sass/sourceTopic.scss */
+/* line 106, ../sass/sourceTopic.scss */
 .containner .next-page .next-icon div:hover {
   transition: 1s;
   background: #3d3d3d;
