@@ -44,10 +44,10 @@ a:hover{
 .containner{
 	margin-top:50px;
 	height: 430px;
-	.trans-table{
+	.topic-table{
 		table-layout: fixed;
 		width: 100%;
-		.trans-item{
+		.topic-item{
 			border-bottom:1px solid #f1f1f1;
 			line-height: 1.6em;
 			td{
@@ -63,7 +63,7 @@ a:hover{
 				text-indent: 1em;
 				width:23%;
 			}
-			.trans-name{
+			.topic-describe{
 				font-family: verdana;
 				// font-family: comic sans ms;
 				// font-family: impact;
@@ -71,11 +71,17 @@ a:hover{
 				text-indent: 1.5em;
 				width:62%;				
 			}
-			.trans-state{
+			.topic-state{
 				width: 15%;
 				text-align: center;
 				font-family: Verdana;
 			}
+			.topic-name:hover{
+				cursor: default;
+				text-decoration:underline;
+				transition: 1s ease-in-out;
+			}
+
 		}
 	}
 }

@@ -17,10 +17,13 @@ var host = "http://127.0.0.1:5000";
 		}
 
 		var topictype = $("#link-type").val().trim();
+
+		var topicdescribe = $("#topic-describe").val().trim();
 		
 		var data = {};
 		data.topicname = topicname;
 		data.topictype = topictype;
+		data.topicdesc = topicdescribe;
 		// sendMsg = JSON.stringify(data);
 		// console.log(sendMsg);
 		// console.log(data)

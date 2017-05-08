@@ -121,41 +121,47 @@ a:hover {
   height: 430px;
 }
 /* line 47, ../sass/index.scss */
-.containner .trans-table {
+.containner .topic-table {
   table-layout: fixed;
   width: 100%;
 }
 /* line 50, ../sass/index.scss */
-.containner .trans-table .trans-item {
+.containner .topic-table .topic-item {
   border-bottom: 1px solid #f1f1f1;
   line-height: 1.6em;
 }
 /* line 53, ../sass/index.scss */
-.containner .trans-table .trans-item td {
+.containner .topic-table .topic-item td {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 /* line 58, ../sass/index.scss */
-.containner .trans-table .trans-item .topic-name {
+.containner .topic-table .topic-item .topic-name {
   font-family: verdana;
   text-indent: 1em;
   width: 23%;
 }
 /* line 66, ../sass/index.scss */
-.containner .trans-table .trans-item .trans-name {
+.containner .topic-table .topic-item .topic-describe {
   font-family: verdana;
   text-indent: 1.5em;
   width: 62%;
 }
 /* line 74, ../sass/index.scss */
-.containner .trans-table .trans-item .trans-state {
+.containner .topic-table .topic-item .topic-state {
   width: 15%;
   text-align: center;
   font-family: Verdana;
 }
+/* line 79, ../sass/index.scss */
+.containner .topic-table .topic-item .topic-name:hover {
+  cursor: default;
+  text-decoration: underline;
+  transition: 1s ease-in-out;
+}
 
-/* line 83, ../sass/index.scss */
+/* line 89, ../sass/index.scss */
 .footer .div-msg {
   margin-bottom: 0.4em;
   margin-top: 2em;
@@ -163,17 +169,17 @@ a:hover {
   font-family: impact;
   display: flex;
 }
-/* line 89, ../sass/index.scss */
+/* line 95, ../sass/index.scss */
 .footer .div-msg .div-div-msg {
   color: gray;
   font-size: 1.3em;
 }
-/* line 93, ../sass/index.scss */
+/* line 99, ../sass/index.scss */
 .footer .div-msg div {
   flex: 1;
   text-align: center;
 }
-/* line 96, ../sass/index.scss */
+/* line 102, ../sass/index.scss */
 .footer .div-msg div span {
   margin-right: 1em;
 }

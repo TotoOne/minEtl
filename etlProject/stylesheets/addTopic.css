@@ -149,7 +149,7 @@ a:hover {
 }
 /* line 68, ../sass/addTopic.scss */
 .containner .div-add-topic .input-div-name #input-topic-name {
-  flex: 1.2;
+  flex: 1.5;
   font-family: verdana;
   text-indent: 0.4em;
   border-radius: 2px;
@@ -171,7 +171,7 @@ a:hover {
 }
 /* line 87, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options .toggle-div {
-  flex: 1.2;
+  flex: 1.5;
 }
 /* line 89, ../sass/addTopic.scss */
 .containner .div-add-topic .toggle-options .toggle-div select {
@@ -185,29 +185,50 @@ a:hover {
 .containner .div-add-topic .toggle-options .toggle-div select option {
   text-align: center;
 }
-/* line 102, ../sass/addTopic.scss */
-.containner .next-page {
-  margin-top: 7em;
+/* line 101, ../sass/addTopic.scss */
+.containner .div-add-topic .input-div-area {
+  display: flex;
+  line-height: 1.8em;
+  margin-top: 0.3em;
 }
-/* line 104, ../sass/addTopic.scss */
+/* line 105, ../sass/addTopic.scss */
+.containner .div-add-topic .input-div-area label {
+  flex: 0.8;
+  margin-right: 2em;
+  font-weight: bold;
+  text-align: right;
+  min-width: 15em;
+}
+/* line 112, ../sass/addTopic.scss */
+.containner .div-add-topic .input-div-area textarea {
+  flex: 1.5;
+  font-family: verdana MicrosoftYaHei STHeiti;
+  border-radius: 2px;
+  border: 1px solid #a3a3a3;
+}
+/* line 121, ../sass/addTopic.scss */
+.containner .next-page {
+  margin-top: 3em;
+}
+/* line 123, ../sass/addTopic.scss */
 .containner .next-page .div-error {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 1em;
 }
-/* line 109, ../sass/addTopic.scss */
+/* line 128, ../sass/addTopic.scss */
 .containner .next-page .div-error span {
   color: #d9534f;
 }
-/* line 113, ../sass/addTopic.scss */
+/* line 132, ../sass/addTopic.scss */
 .containner .next-page .next-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1em;
 }
-/* line 118, ../sass/addTopic.scss */
+/* line 137, ../sass/addTopic.scss */
 .containner .next-page .next-icon div {
   display: flex;
   color: black;
@@ -217,11 +238,11 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-/* line 126, ../sass/addTopic.scss */
+/* line 145, ../sass/addTopic.scss */
 .containner .next-page .next-icon div i {
   font-size: 1.1em;
 }
-/* line 130, ../sass/addTopic.scss */
+/* line 149, ../sass/addTopic.scss */
 .containner .next-page .next-icon div:hover {
   transition: 1s;
   background: #3d3d3d;

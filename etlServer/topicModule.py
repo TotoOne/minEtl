@@ -67,6 +67,7 @@ def addtopicsetting():
         targetInfo = json.loads(targetdata)
         type = topicInfo["topictype"]
         name = topicInfo["topicname"]
+        desc = topicInfo["topicdesc"]
 
         dbinfo = dict(targetInfo)
         print(dbinfo)
@@ -76,9 +77,28 @@ def addtopicsetting():
             jsdic = {"status": 200}
             topicargs = (name, type, srcdata, targetdata)
             dbao.addTopic(topicargs)
+            stateargs = (name, desc, "0")
+            dbao.addTopicState(stateargs)
         else:
             jsdic = {"status": 310}
 
+    result = json.dumps(jsdic)
+    print(result)
+    return result
+
+
+@topicModule.route('/showTopics', methods=['POST', 'GET'])
+def showtopics():
+    jsdic = {"status": 300}
+    if request.method == 'POST':
+        print("ok")
+        try:
+            rs = dbao.findAllTopic()
+            jsdic["status"] = 200
+            jsdic["result"] = rs
+        except:
+            jsdic["status"] = 310
+            jsdic["result"] = ()
     result = json.dumps(jsdic)
     print(result)
     return result

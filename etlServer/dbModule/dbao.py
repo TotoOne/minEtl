@@ -2,7 +2,7 @@ from dbModule import dbconn
 
 
 def findAllTopic():
-    sql = 'select * from topicinform'
+    sql = 'select topicname, topicdescribe, topicstate from topiccontrol'
     rs = dbconn.select(sql, ())
     print(rs)
     return rs
@@ -17,6 +17,14 @@ def addTopic(args):
         print("db error")
     return count
 
+def addTopicState(args):
+    sql = 'insert into topicControl(topicname,topicdescribe,topicstate,starttime) values(?,?,?,now())'
+    try:
+        count = dbconn.execute(sql, args)
+        print(count)
+    except:
+        print("db error")
+    return count
 
 def findTopicExist(args):
     sql = 'select count(*) from topicinform where topicname = ?'
