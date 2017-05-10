@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/etlServer$etlServer.coverage" NAME="etlServer Coverage Results" MODIFIED="1494234266770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/etlServer$etlServer.coverage" NAME="etlServer Coverage Results" MODIFIED="1494307475326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,27 +33,29 @@
       <file leaf-file-name="dbao.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dbModule/dbao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="162">
+              <caret line="36" column="68" lean-forward="true" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
               <folding>
-                <marker date="1494123591949" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-                <marker date="1494123591949" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-                <marker date="1494123591949" expanded="true" signature="217:298" ph="insert into topicinform... " />
-                <marker date="1494123591949" expanded="true" signature="464:534" ph="insert into topicControl... " />
-                <marker date="1494123591949" expanded="true" signature="464:554" ph="insert into topicControl... " />
-                <marker date="1494123591949" expanded="true" signature="721:753" ph="select count... topicinform" />
-                <marker date="1494123591949" expanded="true" signature="721:773" ph="select count... topicinform" />
-                <marker date="1494123591949" expanded="true" signature="721:774" ph="select count... topicinform" />
+                <marker date="1494304690355" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+                <marker date="1494304690355" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+                <marker date="1494304690355" expanded="true" signature="217:298" ph="insert into topicinform... " />
+                <marker date="1494304690355" expanded="true" signature="464:534" ph="insert into topicControl... " />
+                <marker date="1494304690355" expanded="true" signature="464:554" ph="insert into topicControl... " />
+                <marker date="1494304690355" expanded="true" signature="721:753" ph="select count... topicinform" />
+                <marker date="1494304690355" expanded="true" signature="721:773" ph="select count... topicinform" />
+                <marker date="1494304690355" expanded="true" signature="721:774" ph="select count... topicinform" />
+                <marker date="1494304690355" expanded="true" signature="877:950" ph="select ti.tr... transinform" />
+                <marker date="1494304690355" expanded="true" signature="877:966" ph="select ti.tr... transinform" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topicModule.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="topicModule.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/topicModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="93" column="18" lean-forward="false" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+            <state relative-caret-position="168">
+              <caret line="92" column="32" lean-forward="true" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -61,10 +63,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="etlServer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="transformModule.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transformModule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="etlServer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etlServer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
+            <state relative-caret-position="162">
               <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -94,12 +108,12 @@
         <option value="$PROJECT_DIR$/dbModule/orm.py" />
         <option value="$PROJECT_DIR$/dbModule/topicModule.py" />
         <option value="$PROJECT_DIR$/dbModule/transformModule.py" />
-        <option value="$PROJECT_DIR$/transformModule.py" />
         <option value="$PROJECT_DIR$/dbModule/__init__.py" />
         <option value="$PROJECT_DIR$/etlServer.py" />
         <option value="$PROJECT_DIR$/dbModule/dbconn.py" />
-        <option value="$PROJECT_DIR$/dbModule/dbao.py" />
         <option value="$PROJECT_DIR$/topicModule.py" />
+        <option value="$PROJECT_DIR$/dbModule/dbao.py" />
+        <option value="$PROJECT_DIR$/transformModule.py" />
       </list>
     </option>
   </component>
@@ -110,10 +124,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="429" />
-    <option name="y" value="69" />
-    <option name="width" value="1333" />
-    <option name="height" value="874" />
+    <option name="x" value="66" />
+    <option name="y" value="32" />
+    <option name="width" value="1433" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -130,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,7 +173,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -425,16 +439,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="429" y="69" width="1333" height="874" extended-state="0" />
+    <frame x="66" y="32" width="1433" height="877" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28786677" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27185893" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.51229185" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2651622" sideWeight="0.48770818" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26404494" sideWeight="0.48770818" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25455987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.49722442" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -463,6 +477,55 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dbModule/dbconn.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="89" column="50" lean-forward="false" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbModule/dbao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <marker date="1494304690355" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1494304690355" expanded="true" signature="217:298" ph="insert into topicinform... " />
+            <marker date="1494304690355" expanded="true" signature="464:534" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="464:554" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="721:753" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:773" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="877:950" ph="select ti.tr... transinform" />
+            <marker date="1494304690355" expanded="true" signature="877:966" ph="select ti.tr... transinform" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topicModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="93" column="18" lean-forward="false" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etlServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbModule/dbconn.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1602">
           <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
           <folding>
@@ -476,14 +539,16 @@
         <state relative-caret-position="414">
           <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
-            <marker date="1494123591949" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494123591949" expanded="true" signature="217:298" ph="insert into topicinform... " />
-            <marker date="1494123591949" expanded="true" signature="464:534" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="464:554" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="721:753" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:773" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1494304690355" expanded="true" signature="217:298" ph="insert into topicinform... " />
+            <marker date="1494304690355" expanded="true" signature="464:534" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="464:554" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="721:753" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:773" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="877:950" ph="select ti.tr... transinform" />
+            <marker date="1494304690355" expanded="true" signature="877:966" ph="select ti.tr... transinform" />
           </folding>
         </state>
       </provider>
@@ -523,14 +588,16 @@
         <state relative-caret-position="288">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <marker date="1494123591949" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494123591949" expanded="true" signature="217:298" ph="insert into topicinform... " />
-            <marker date="1494123591949" expanded="true" signature="464:534" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="464:554" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="721:753" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:773" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1494304690355" expanded="true" signature="217:298" ph="insert into topicinform... " />
+            <marker date="1494304690355" expanded="true" signature="464:534" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="464:554" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="721:753" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:773" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="877:950" ph="select ti.tr... transinform" />
+            <marker date="1494304690355" expanded="true" signature="877:966" ph="select ti.tr... transinform" />
           </folding>
         </state>
       </provider>
@@ -570,14 +637,16 @@
         <state relative-caret-position="234">
           <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
-            <marker date="1494123591949" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494123591949" expanded="true" signature="217:298" ph="insert into topicinform... " />
-            <marker date="1494123591949" expanded="true" signature="464:534" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="464:554" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="721:753" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:773" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1494304690355" expanded="true" signature="217:298" ph="insert into topicinform... " />
+            <marker date="1494304690355" expanded="true" signature="464:534" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="464:554" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="721:753" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:773" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="877:950" ph="select ti.tr... transinform" />
+            <marker date="1494304690355" expanded="true" signature="877:966" ph="select ti.tr... transinform" />
           </folding>
         </state>
       </provider>
@@ -617,14 +686,16 @@
         <state relative-caret-position="414">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1494123591949" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494123591949" expanded="true" signature="217:298" ph="insert into topicinform... " />
-            <marker date="1494123591949" expanded="true" signature="464:534" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="464:554" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="721:753" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:773" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1494304690355" expanded="true" signature="217:298" ph="insert into topicinform... " />
+            <marker date="1494304690355" expanded="true" signature="464:534" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="464:554" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="721:753" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:773" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="877:950" ph="select ti.tr... transinform" />
+            <marker date="1494304690355" expanded="true" signature="877:966" ph="select ti.tr... transinform" />
           </folding>
         </state>
       </provider>
@@ -664,14 +735,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1494123591949" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494123591949" expanded="true" signature="217:298" ph="insert into topicinform... " />
-            <marker date="1494123591949" expanded="true" signature="464:534" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="464:554" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="721:753" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:773" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1494304690355" expanded="true" signature="217:298" ph="insert into topicinform... " />
+            <marker date="1494304690355" expanded="true" signature="464:534" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="464:554" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="721:753" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:773" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="877:950" ph="select ti.tr... transinform" />
+            <marker date="1494304690355" expanded="true" signature="877:966" ph="select ti.tr... transinform" />
           </folding>
         </state>
       </provider>
@@ -701,14 +774,16 @@
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1494123591949" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494123591949" expanded="true" signature="217:298" ph="insert into topicinform... " />
-            <marker date="1494123591949" expanded="true" signature="464:534" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="464:554" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="721:753" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:773" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1494304690355" expanded="true" signature="217:298" ph="insert into topicinform... " />
+            <marker date="1494304690355" expanded="true" signature="464:534" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="464:554" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="721:753" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:773" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="877:950" ph="select ti.tr... transinform" />
+            <marker date="1494304690355" expanded="true" signature="877:966" ph="select ti.tr... transinform" />
           </folding>
         </state>
       </provider>
@@ -748,14 +823,16 @@
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1494123591949" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494123591949" expanded="true" signature="217:298" ph="insert into topicinform... " />
-            <marker date="1494123591949" expanded="true" signature="464:534" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="464:554" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="721:753" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:773" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1494304690355" expanded="true" signature="217:298" ph="insert into topicinform... " />
+            <marker date="1494304690355" expanded="true" signature="464:534" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="464:554" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="721:753" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:773" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="877:950" ph="select ti.tr... transinform" />
+            <marker date="1494304690355" expanded="true" signature="877:966" ph="select ti.tr... transinform" />
           </folding>
         </state>
       </provider>
@@ -795,14 +872,16 @@
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1494123591949" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494123591949" expanded="true" signature="217:298" ph="insert into topicinform... " />
-            <marker date="1494123591949" expanded="true" signature="464:534" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="464:554" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="721:753" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:773" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1494304690355" expanded="true" signature="217:298" ph="insert into topicinform... " />
+            <marker date="1494304690355" expanded="true" signature="464:534" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="464:554" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="721:753" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:773" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="877:950" ph="select ti.tr... transinform" />
+            <marker date="1494304690355" expanded="true" signature="877:966" ph="select ti.tr... transinform" />
           </folding>
         </state>
       </provider>
@@ -830,27 +909,10 @@
     <entry file="file://$PROJECT_DIR$/dbModule/orm.py" />
     <entry file="file://$PROJECT_DIR$/dbModule/topicModule.py" />
     <entry file="file://$PROJECT_DIR$/dbModule/transformModule.py" />
-    <entry file="file://$PROJECT_DIR$/transformModule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dbModule/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etlServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,27 +935,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dbModule/dbao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="162">
+          <caret line="36" column="68" lean-forward="true" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
           <folding>
-            <marker date="1494123591949" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494123591949" expanded="true" signature="217:298" ph="insert into topicinform... " />
-            <marker date="1494123591949" expanded="true" signature="464:534" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="464:554" ph="insert into topicControl... " />
-            <marker date="1494123591949" expanded="true" signature="721:753" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:773" ph="select count... topicinform" />
-            <marker date="1494123591949" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1494304690355" expanded="true" signature="217:298" ph="insert into topicinform... " />
+            <marker date="1494304690355" expanded="true" signature="464:534" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="464:554" ph="insert into topicControl... " />
+            <marker date="1494304690355" expanded="true" signature="721:753" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:773" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="721:774" ph="select count... topicinform" />
+            <marker date="1494304690355" expanded="true" signature="877:950" ph="select ti.tr... transinform" />
+            <marker date="1494304690355" expanded="true" signature="877:966" ph="select ti.tr... transinform" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/topicModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="93" column="18" lean-forward="false" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+        <state relative-caret-position="168">
+          <caret line="92" column="32" lean-forward="true" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transformModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etlServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

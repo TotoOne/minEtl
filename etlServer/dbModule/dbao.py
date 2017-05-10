@@ -32,6 +32,13 @@ def findTopicExist(args):
     print(rs)
     return rs
 
+def findTransByTopic(args):
+    sql = 'select ti.transname, ti.transdescribe, tc.transstate from transinform ti, transcontrol tc '
+    sql = sql + 'where ti.transid = tc.transid and ti.topicname = ?'
+    rs = dbconn.select(sql, args)
+    return rs
+
+
 
 # if __name__ == "__main__":
 # 	loop = asyncio.get_event_loop()

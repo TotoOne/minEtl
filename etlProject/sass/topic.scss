@@ -21,6 +21,9 @@ a:hover{
 			font-size: 32px;
 			font-weight: bolder;
 		}
+		.topic-name:hover{
+			cursor: default;			
+		}
 		a{
 			margin-left: 1em;
 			cursor: pointer;
@@ -55,7 +58,7 @@ a:hover{
 				overflow: hidden;
 				text-overflow: ellipsis;
 			}
-			.topic-name{
+			.trans-name{
 				font-family: verdana;
 				//font-family: georgia;
 				// font-family: comic sans ms;
@@ -63,7 +66,7 @@ a:hover{
 				text-indent: 1em;
 				width:23%;
 			}
-			.trans-name{
+			.trans-desc{
 				font-family: verdana;
 				// font-family: comic sans ms;
 				// font-family: impact;

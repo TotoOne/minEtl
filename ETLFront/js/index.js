@@ -3,6 +3,10 @@ var tpnum = 0;
 var wrtpnum = 0;
 var doingtpnum = 0;
 var todotpnum = 0;
+$(".topicnum").text(tpnum);
+$(".wrongnum").text(wrtpnum);
+$(".doingnum").text(doingtpnum);
+$(".todonum").text(todotpnum);
 (function(){
 	var data = {};
 	$.ajax({
@@ -43,11 +47,12 @@ var todotpnum = 0;
 	});
 
 })();
-$(document).on("click",".topic-name",function(){
-	topicname = $(".topic-name").text();
-	console.log("hello");
-	location="topic.html"+"?topicname="+topicname;
+
+$(document).on("click",".sub-topic-name", function(){
+	topicname = $(this).text();
+	location.href = "topic.html?topicname=" + topicname;
 });
+
 function createTopicItems(data){
 	var tmpTd = '<a href="#">wrong</a>';
 	if(data[2] == 0){
@@ -56,7 +61,7 @@ function createTopicItems(data){
 		tmpTd = '<i class="icon-spin2 animate-spin"></i>'
 	}
 	return $('<tr class = "topic-item"> ' +
-			'<td class="topic-name">' + data[0] + '</td> ' +
+			'<td class="sub-topic-name">' + data[0] + '</td> ' +
 			'<td class="topic-describe">' + data[1] + '</td> ' +
 			'<td class="topic-state">' + tmpTd + '</td> ' +
 			'</tr>');

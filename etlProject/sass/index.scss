@@ -55,7 +55,7 @@ a:hover{
 				overflow: hidden;
 				text-overflow: ellipsis;
 			}
-			.topic-name{
+			.sub-topic-name{
 				font-family: verdana;
 				//font-family: georgia;
 				// font-family: comic sans ms;
@@ -76,10 +76,10 @@ a:hover{
 				text-align: center;
 				font-family: Verdana;
 			}
-			.topic-name:hover{
+			.sub-topic-name:hover{
 				cursor: default;
 				text-decoration:underline;
-				transition: 1s ease-in-out;
+				// transition: 1s ease-in-out;
 			}
 
 		}

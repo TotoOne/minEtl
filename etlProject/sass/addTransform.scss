@@ -238,7 +238,7 @@ a:hover{
 				}
 				div:hover{
 					background-color: #c9302c;
-					cursor: pointer;
+					cursor: default;
 				}			
 			}
 		}
@@ -372,7 +372,7 @@ a:hover{
 				}
 				div:hover{
 					background-color: #c9302c;
-					cursor: pointer;
+					cursor: default;
 				}			
 			}
 		}
@@ -499,19 +499,26 @@ a:hover{
 	}
 	.div-ending{
 		width: 95%;
-		margin-top: 35px;
+		margin-top: 1.5em;
 		.div-transform-info{
 			font-family:  Helvetica Neue;
+			width:900px;
+			margin: 0 auto;
+			display: flex;
 			div{
-				display: inline-block;
+				height: 1em;
 				margin-left: 2.5em;
-			}
-			.btn-select{
-				text-align: center;
+				font-weight: bolder;
+				font-family: garamond;
+				color: #bb91bb;
+				span{
+					// font-family: georgia;
+					font-weight: normal;
+				}
 			}
 		}
 		.div-column-name{
-			margin-top: 1em;
+			margin-top: 1.3em;
 			.select-num{
 				display: inline-block;
 				color: #f9534e;
@@ -522,14 +529,46 @@ a:hover{
 			.Columns{
 				font-size: 1.8em;
 			}
+			.btn-add-trans{
+				margin-left: 34em;
+				display: inline-block;
+				width: 100px;
+				line-height: 1.8em;
+				text-align: center;
+				// border: 1px solid #a3a3a3;
+				border-radius: 5px;
+				background-color: #d9534f;
+				color:#fff;
+				font-family:  Helvetica Neue;
+				font-weight: 600;
+			}
+			.btn-add-trans:hover{
+				background-color: #c9302c;
+				cursor: default;
+			}
 		}
 		.div-columns{
-			margin-top: 1em;
-			width: 95%;
-			margin-left: 2em;
+			width: 900px;
+			margin-left: 2.5em;
+			margin-top: 0.5em;
 			// border: 1px red solid;
+			// display: flex;
 			.map-columns{
+				float: left;
 				display: flex;
+				// height: 2.5em;
+				margin-left: 1em;
+				margin-top: 0.5em;
+				.source{
+					line-height: 1.4em;
+					padding-right: 0.5em;
+					padding-left: 0.5em;
+					margin-top: 0.4em;
+					font-family: georgia;
+					border-radius: 20px / 5px;
+					color: #000;
+					box-shadow: 0px 0px 5px #6FA1D9;
+				}
 				.target{
 					line-height: 1.4em;
 					padding-right: 0.5em;
@@ -541,16 +580,6 @@ a:hover{
 					font-family: georgia;
 					background-color: #3f3f3f;
 					color: #fff;	
-				}
-				.source{
-					line-height: 1.4em;
-					padding-right: 0.5em;
-					padding-left: 0.5em;
-					margin-top: 0.4em;
-					font-family: georgia;
-					border-radius: 20px / 5px;
-					color: #000;
-					box-shadow: 0px 0px 5px #6FA1D9;
 				}
 			}
 			// div:hover{

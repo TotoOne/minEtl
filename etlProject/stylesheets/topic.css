@@ -93,69 +93,73 @@ a:hover {
   font-weight: bolder;
 }
 /* line 24, ../sass/topic.scss */
+.header .head-topic .topic-name:hover {
+  cursor: default;
+}
+/* line 27, ../sass/topic.scss */
 .header .head-topic a {
   margin-left: 1em;
   cursor: pointer;
 }
-/* line 29, ../sass/topic.scss */
+/* line 32, ../sass/topic.scss */
 .header .window-tool {
   display: inline-block;
   float: right;
   margin-top: 1em;
 }
-/* line 33, ../sass/topic.scss */
+/* line 36, ../sass/topic.scss */
 .header .window-tool i {
   font-size: 1.2em;
   color: #666666;
   margin-left: 0.5em;
 }
-/* line 38, ../sass/topic.scss */
+/* line 41, ../sass/topic.scss */
 .header .window-tool i:hover {
   color: #000000;
   cursor: pointer;
 }
 
-/* line 44, ../sass/topic.scss */
+/* line 47, ../sass/topic.scss */
 .containner {
   margin-top: 70px;
   height: 360px;
 }
-/* line 47, ../sass/topic.scss */
+/* line 50, ../sass/topic.scss */
 .containner .trans-table {
   table-layout: fixed;
   width: 100%;
 }
-/* line 50, ../sass/topic.scss */
+/* line 53, ../sass/topic.scss */
 .containner .trans-table .trans-item {
   border-bottom: 1px solid #f1f1f1;
   line-height: 1.6em;
 }
-/* line 53, ../sass/topic.scss */
+/* line 56, ../sass/topic.scss */
 .containner .trans-table .trans-item td {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 58, ../sass/topic.scss */
-.containner .trans-table .trans-item .topic-name {
+/* line 61, ../sass/topic.scss */
+.containner .trans-table .trans-item .trans-name {
   font-family: verdana;
   text-indent: 1em;
   width: 23%;
 }
-/* line 66, ../sass/topic.scss */
-.containner .trans-table .trans-item .trans-name {
+/* line 69, ../sass/topic.scss */
+.containner .trans-table .trans-item .trans-desc {
   font-family: verdana;
   text-indent: 1.5em;
   width: 62%;
 }
-/* line 74, ../sass/topic.scss */
+/* line 77, ../sass/topic.scss */
 .containner .trans-table .trans-item .trans-state {
   width: 15%;
   font-family: Verdana;
   text-align: center;
 }
 
-/* line 83, ../sass/topic.scss */
+/* line 86, ../sass/topic.scss */
 .footer .div-msg {
   margin-bottom: 0.4em;
   margin-top: 2em;
@@ -163,17 +167,17 @@ a:hover {
   font-family: impact;
   display: flex;
 }
-/* line 89, ../sass/topic.scss */
+/* line 92, ../sass/topic.scss */
 .footer .div-msg .div-div-msg {
   color: gray;
   font-size: 1.3em;
 }
-/* line 93, ../sass/topic.scss */
+/* line 96, ../sass/topic.scss */
 .footer .div-msg div {
   flex: 1;
   text-align: center;
 }
-/* line 96, ../sass/topic.scss */
+/* line 99, ../sass/topic.scss */
 .footer .div-msg div span {
   margin-right: 1em;
 }
