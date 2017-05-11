@@ -7,7 +7,7 @@ create table topicControl(					#转换状态
 
 create table topicInform(					#连接源库、目标库
 	topicname varchar(40) not null primary key,
-	linktype varchar(1),					#连接类型，默认为oracle to oracle
+	linktype varchar(1),					#连接类型，默认为oracle to oracle 1; oracle to mysql 2; 
 	sourcelink varchar(120),				#json数据:port addr listen name pwd
 	targetlink varchar(120)					#json数据:port addr listen name pwd
 ) charset = utf8;

@@ -8,7 +8,6 @@ $(".wrongnum").text(wrtpnum);
 $(".doingnum").text(doingtpnum);
 $(".todonum").text(todotpnum);
 (function(){
-	var data = {};
 	$.ajax({
 		method: "post",
 		url: host + "/topicModule/showTopics",
@@ -16,7 +15,7 @@ $(".todonum").text(todotpnum);
 		// xhrFields:{
 	 //    	withCredentials: true
 		// },
-		data: data
+		data: {}
 	}).done(function(result){
 		if(result.status==200){
 			tpcontrol = result.result;

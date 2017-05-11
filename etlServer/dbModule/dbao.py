@@ -3,9 +3,12 @@ from dbModule import dbconn
 
 def findAllTopic():
     sql = 'select topicname, topicdescribe, topicstate from topiccontrol'
-    rs = dbconn.select(sql, ())
-    print(rs)
-    return rs
+    try:
+        rs = dbconn.select(sql, ())
+        print(rs)
+        return rs
+    except:
+        raise
 
 
 def addTopic(args):
@@ -13,32 +16,86 @@ def addTopic(args):
     try:
         count = dbconn.execute(sql, args)
         print(count)
+        return count
     except:
         print("db error")
-    return count
+        raise
+
 
 def addTopicState(args):
     sql = 'insert into topicControl(topicname,topicdescribe,topicstate,starttime) values(?,?,?,now())'
     try:
         count = dbconn.execute(sql, args)
         print(count)
+        return count
     except:
         print("db error")
-    return count
+        raise
+
 
 def findTopicExist(args):
     sql = 'select count(*) from topicinform where topicname = ?'
-    rs = dbconn.select(sql, args)
-    print(rs)
-    return rs
+    try:
+        rs = dbconn.select(sql, args)
+        print(rs)
+        return rs
+    except:
+        raise
+
 
 def findTransByTopic(args):
     sql = 'select ti.transname, ti.transdescribe, tc.transstate from transinform ti, transcontrol tc '
     sql = sql + 'where ti.transid = tc.transid and ti.topicname = ?'
-    rs = dbconn.select(sql, args)
+    try:
+        rs = dbconn.select(sql, args)
+        return rs
+    except:
+        raise
+
+
+def findSourceTableColumns(args):
+    topicname = args[0]
+    tablename = args[1]
+    sql = 'select sourcelink from topicinform where topicname = ?'
+    try:
+        link = dbconn.select(sql, topicname)[0][0]
+    except:
+        link = ""
+    if link == "":
+        rs = []
+    else:
+        link = eval(link)
+        try:
+            with dbconn.getPoolConnect(link) as db:
+                cur = db.cursor
+                cur.execute("select * from %s where 1 != 1" % tablename)
+                rs = [row[0] for row in cur.description]
+        except Exception as e:
+            print(e)
+            raise
     return rs
 
 
+def findTargetTableCoumns(args):
+    topicname = args[0]
+    tablename = args[1]
+    sql = 'select targetlink from topicinform where topicname = ?'
+    try:
+        link = dbconn.select(sql, topicname)[0]
+    except:
+        link = ""
+    if link == "" or dbconn.dbPing(link):
+        rs = []
+    else:
+        try:
+            with dbconn.getPoolConnect(link) as db:
+                conn = db.conn
+                cur = conn.cursor
+                cur.execute("select * from % where 1 != 1" % tablename)
+                rs = [row[0] for row in cur.description]
+        except:
+            raise
+    return rs
 
 # if __name__ == "__main__":
 # 	loop = asyncio.get_event_loop()

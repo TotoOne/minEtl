@@ -23,3 +23,26 @@ def showTrans():
     result = json.dumps(jsdic)
     print(result)
     return result
+
+
+@transformModule.route('/showColumns', methods=['POST', 'GET'])
+def showColumns():
+    jsdic = {"status": 300}
+    if request.method == 'POST':
+        tablename = request.form.get("tablename")
+        topicname = request.form.get("topicname")
+        tabletype = request.form.get("tabletype")
+        args = (topicname, tablename)
+        rs = []
+        try:
+            if (tabletype == '0'):
+                rs = dbao.findSourceTableColumns(args)
+            elif (tabletype == '1'):
+                rs = dbao.findTargetTableColumns(args)
+            jsdic["status"] = 200
+        except Exception as e:
+            jsdic["status"] = 310 #表名不存在
+        jsdic["result"] = rs
+        result = json.dumps(jsdic)
+        print(result)
+        return result

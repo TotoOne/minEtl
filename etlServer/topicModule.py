@@ -76,9 +76,12 @@ def addtopicsetting():
         if i == 1:
             jsdic = {"status": 200}
             topicargs = (name, type, srcdata, targetdata)
-            dbao.addTopic(topicargs)
-            stateargs = (name, desc, "0")
-            dbao.addTopicState(stateargs)
+            try:
+                dbao.addTopic(topicargs)
+                stateargs = (name, desc, "0")
+                dbao.addTopicState(stateargs)
+            except:
+                jsdic["status"] = 310
         else:
             jsdic = {"status": 310}
 

@@ -373,38 +373,40 @@ a:hover {
 .containner .div-source-setting .div-columns {
   margin-top: 1em;
   width: 95%;
+  min-height: 200px;
   margin-left: 2em;
 }
-/* line 263, ../sass/addTransform.scss */
+/* line 264, ../sass/addTransform.scss */
 .containner .div-source-setting .div-columns div {
   line-height: 1.4em;
   padding-right: 0.5em;
   padding-left: 0.5em;
   margin-top: 0.4em;
+  margin-right: 0.5em;
   border-radius: 20px / 5px;
   box-shadow: 0px 0px 5px #6FA1D9;
   font-family: georgia;
   display: inline-block;
 }
-/* line 274, ../sass/addTransform.scss */
+/* line 275, ../sass/addTransform.scss */
 .containner .div-source-setting .div-columns div:hover {
   cursor: default;
   background-color: #3f3f3f;
   color: #fff;
 }
-/* line 279, ../sass/addTransform.scss */
+/* line 280, ../sass/addTransform.scss */
 .containner .div-source-setting .div-columns .checked {
   background-color: #3f3f3f;
   color: #fff;
 }
-/* line 285, ../sass/addTransform.scss */
+/* line 286, ../sass/addTransform.scss */
 .containner .div-source-setting .next-page {
-  margin-top: 60px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* line 290, ../sass/addTransform.scss */
+/* line 291, ../sass/addTransform.scss */
 .containner .div-source-setting .next-page div {
   display: flex;
   color: black;
@@ -414,27 +416,27 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-/* line 298, ../sass/addTransform.scss */
+/* line 299, ../sass/addTransform.scss */
 .containner .div-source-setting .next-page div i {
   font-size: 1.1em;
 }
-/* line 302, ../sass/addTransform.scss */
+/* line 303, ../sass/addTransform.scss */
 .containner .div-source-setting .next-page div:hover {
   transition: 1s;
   background: #3d3d3d;
   color: #ffffff;
 }
-/* line 309, ../sass/addTransform.scss */
+/* line 310, ../sass/addTransform.scss */
 .containner .div-target-setting {
   width: 95%;
   margin-top: 10px;
 }
-/* line 312, ../sass/addTransform.scss */
+/* line 313, ../sass/addTransform.scss */
 .containner .div-target-setting .div-selected-columns {
   height: 5.5em;
   margin-left: 2em;
 }
-/* line 315, ../sass/addTransform.scss */
+/* line 316, ../sass/addTransform.scss */
 .containner .div-target-setting .div-selected-columns div {
   line-height: 1.4em;
   padding-right: 0.5em;
@@ -446,17 +448,17 @@ a:hover {
   background-color: #3f3f3f;
   color: #fff;
 }
-/* line 329, ../sass/addTransform.scss */
+/* line 330, ../sass/addTransform.scss */
 .containner .div-target-setting .div-search-table {
   display: flex;
   align-items: center;
   margin-top: 2em;
 }
-/* line 333, ../sass/addTransform.scss */
+/* line 334, ../sass/addTransform.scss */
 .containner .div-target-setting .div-search-table .input-table-name {
   flex: 2;
 }
-/* line 335, ../sass/addTransform.scss */
+/* line 336, ../sass/addTransform.scss */
 .containner .div-target-setting .div-search-table .input-table-name input {
   margin-left: 1.2em;
   text-indent: 1em;
@@ -464,28 +466,28 @@ a:hover {
   border-radius: 50px;
   border: 1px solid #a3a3a3;
 }
-/* line 342, ../sass/addTransform.scss */
+/* line 343, ../sass/addTransform.scss */
 .containner .div-target-setting .div-search-table .input-table-name input:focus {
   outline: 0;
   border: 1px solid #97bbe4 !important;
   box-shadow: 0px 0px 5px #6FA1D9 !important;
 }
-/* line 347, ../sass/addTransform.scss */
+/* line 348, ../sass/addTransform.scss */
 .containner .div-target-setting .div-search-table .input-table-name i {
   margin-left: 0.4em;
   color: #953b39;
   opacity: 0.8;
 }
-/* line 352, ../sass/addTransform.scss */
+/* line 353, ../sass/addTransform.scss */
 .containner .div-target-setting .div-search-table .input-table-name i:hover {
   color: #702c2b;
   opacity: 1;
 }
-/* line 357, ../sass/addTransform.scss */
+/* line 358, ../sass/addTransform.scss */
 .containner .div-target-setting .div-search-table .btn-select {
   flex: 1;
 }
-/* line 359, ../sass/addTransform.scss */
+/* line 360, ../sass/addTransform.scss */
 .containner .div-target-setting .div-search-table .btn-select div {
   display: inline-block;
   width: 150px;
@@ -497,16 +499,16 @@ a:hover {
   font-family: Helvetica Neue;
   font-weight: 600;
 }
-/* line 373, ../sass/addTransform.scss */
+/* line 374, ../sass/addTransform.scss */
 .containner .div-target-setting .div-search-table .btn-select div:hover {
   background-color: #c9302c;
   cursor: default;
 }
-/* line 379, ../sass/addTransform.scss */
+/* line 380, ../sass/addTransform.scss */
 .containner .div-target-setting .div-column-name {
   margin-top: 1em;
 }
-/* line 381, ../sass/addTransform.scss */
+/* line 382, ../sass/addTransform.scss */
 .containner .div-target-setting .div-column-name .select-num {
   display: inline-block;
   color: #f9534e;
@@ -514,17 +516,17 @@ a:hover {
   width: 2em;
   text-align: right;
 }
-/* line 388, ../sass/addTransform.scss */
+/* line 389, ../sass/addTransform.scss */
 .containner .div-target-setting .div-column-name .Columns {
   font-size: 1.8em;
 }
-/* line 392, ../sass/addTransform.scss */
+/* line 393, ../sass/addTransform.scss */
 .containner .div-target-setting .div-columns {
   margin-top: 1em;
   width: 95%;
   margin-left: 2em;
 }
-/* line 397, ../sass/addTransform.scss */
+/* line 398, ../sass/addTransform.scss */
 .containner .div-target-setting .div-columns div {
   line-height: 1.4em;
   padding-right: 0.5em;
@@ -535,25 +537,25 @@ a:hover {
   font-family: georgia;
   display: inline-block;
 }
-/* line 408, ../sass/addTransform.scss */
+/* line 409, ../sass/addTransform.scss */
 .containner .div-target-setting .div-columns div:hover {
   cursor: default;
   background-color: #3f3f3f;
   color: #fff;
 }
-/* line 413, ../sass/addTransform.scss */
+/* line 414, ../sass/addTransform.scss */
 .containner .div-target-setting .div-columns .checked {
   background-color: #3f3f3f;
   color: #fff;
 }
-/* line 419, ../sass/addTransform.scss */
+/* line 420, ../sass/addTransform.scss */
 .containner .div-target-setting .next-page {
   margin-top: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* line 424, ../sass/addTransform.scss */
+/* line 425, ../sass/addTransform.scss */
 .containner .div-target-setting .next-page div {
   display: flex;
   color: black;
@@ -563,66 +565,66 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-/* line 432, ../sass/addTransform.scss */
+/* line 433, ../sass/addTransform.scss */
 .containner .div-target-setting .next-page div i {
   font-size: 1.1em;
 }
-/* line 436, ../sass/addTransform.scss */
+/* line 437, ../sass/addTransform.scss */
 .containner .div-target-setting .next-page div:hover {
   transition: 1s;
   background: #3d3d3d;
   color: #ffffff;
 }
-/* line 443, ../sass/addTransform.scss */
+/* line 444, ../sass/addTransform.scss */
 .containner .div-deal-after {
   width: 95%;
   margin-top: 35px;
 }
-/* line 446, ../sass/addTransform.scss */
+/* line 447, ../sass/addTransform.scss */
 .containner .div-deal-after .div-div-deal-after {
   display: flex;
 }
-/* line 448, ../sass/addTransform.scss */
+/* line 449, ../sass/addTransform.scss */
 .containner .div-deal-after .div-div-deal-after .input-source-after {
   max-height: 100%;
   flex: 1;
 }
-/* line 451, ../sass/addTransform.scss */
+/* line 452, ../sass/addTransform.scss */
 .containner .div-deal-after .div-div-deal-after .input-source-after span {
   line-height: 2.3em;
 }
-/* line 454, ../sass/addTransform.scss */
+/* line 455, ../sass/addTransform.scss */
 .containner .div-deal-after .div-div-deal-after .input-source-after textarea {
   width: 100%;
   font-family: verdana MicrosoftYaHei STHeiti;
   border-radius: 2px;
   border: 1px solid #a3a3a3;
 }
-/* line 461, ../sass/addTransform.scss */
+/* line 462, ../sass/addTransform.scss */
 .containner .div-deal-after .div-div-deal-after .input-target-after {
   max-height: 100%;
   flex: 1;
   margin-left: 0.5em;
 }
-/* line 465, ../sass/addTransform.scss */
+/* line 466, ../sass/addTransform.scss */
 .containner .div-deal-after .div-div-deal-after .input-target-after span {
   line-height: 2.3em;
 }
-/* line 468, ../sass/addTransform.scss */
+/* line 469, ../sass/addTransform.scss */
 .containner .div-deal-after .div-div-deal-after .input-target-after textarea {
   width: 100%;
   font-family: verdana MicrosoftYaHei STHeiti;
   border-radius: 2px;
   border: 1px solid #a3a3a3;
 }
-/* line 476, ../sass/addTransform.scss */
+/* line 477, ../sass/addTransform.scss */
 .containner .div-deal-after .next-page {
   margin-top: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* line 481, ../sass/addTransform.scss */
+/* line 482, ../sass/addTransform.scss */
 .containner .div-deal-after .next-page div {
   display: flex;
   color: black;
@@ -632,29 +634,29 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-/* line 489, ../sass/addTransform.scss */
+/* line 490, ../sass/addTransform.scss */
 .containner .div-deal-after .next-page div i {
   font-size: 1.1em;
 }
-/* line 493, ../sass/addTransform.scss */
+/* line 494, ../sass/addTransform.scss */
 .containner .div-deal-after .next-page div:hover {
   transition: 1s;
   background: #3d3d3d;
   color: #ffffff;
 }
-/* line 500, ../sass/addTransform.scss */
+/* line 501, ../sass/addTransform.scss */
 .containner .div-ending {
   width: 95%;
   margin-top: 1.5em;
 }
-/* line 503, ../sass/addTransform.scss */
+/* line 504, ../sass/addTransform.scss */
 .containner .div-ending .div-transform-info {
   font-family: Helvetica Neue;
   width: 900px;
   margin: 0 auto;
   display: flex;
 }
-/* line 508, ../sass/addTransform.scss */
+/* line 509, ../sass/addTransform.scss */
 .containner .div-ending .div-transform-info div {
   height: 1em;
   margin-left: 2.5em;
@@ -662,15 +664,15 @@ a:hover {
   font-family: garamond;
   color: #bb91bb;
 }
-/* line 514, ../sass/addTransform.scss */
+/* line 515, ../sass/addTransform.scss */
 .containner .div-ending .div-transform-info div span {
   font-weight: normal;
 }
-/* line 520, ../sass/addTransform.scss */
+/* line 521, ../sass/addTransform.scss */
 .containner .div-ending .div-column-name {
   margin-top: 1.3em;
 }
-/* line 522, ../sass/addTransform.scss */
+/* line 523, ../sass/addTransform.scss */
 .containner .div-ending .div-column-name .select-num {
   display: inline-block;
   color: #f9534e;
@@ -678,11 +680,11 @@ a:hover {
   width: 2em;
   text-align: right;
 }
-/* line 529, ../sass/addTransform.scss */
+/* line 530, ../sass/addTransform.scss */
 .containner .div-ending .div-column-name .Columns {
   font-size: 1.8em;
 }
-/* line 532, ../sass/addTransform.scss */
+/* line 533, ../sass/addTransform.scss */
 .containner .div-ending .div-column-name .btn-add-trans {
   margin-left: 34em;
   display: inline-block;
@@ -695,25 +697,25 @@ a:hover {
   font-family: Helvetica Neue;
   font-weight: 600;
 }
-/* line 545, ../sass/addTransform.scss */
+/* line 546, ../sass/addTransform.scss */
 .containner .div-ending .div-column-name .btn-add-trans:hover {
   background-color: #c9302c;
   cursor: default;
 }
-/* line 550, ../sass/addTransform.scss */
+/* line 551, ../sass/addTransform.scss */
 .containner .div-ending .div-columns {
   width: 900px;
   margin-left: 2.5em;
   margin-top: 0.5em;
 }
-/* line 556, ../sass/addTransform.scss */
+/* line 557, ../sass/addTransform.scss */
 .containner .div-ending .div-columns .map-columns {
   float: left;
   display: flex;
   margin-left: 1em;
   margin-top: 0.5em;
 }
-/* line 562, ../sass/addTransform.scss */
+/* line 563, ../sass/addTransform.scss */
 .containner .div-ending .div-columns .map-columns .source {
   line-height: 1.4em;
   padding-right: 0.5em;
@@ -724,7 +726,7 @@ a:hover {
   color: #000;
   box-shadow: 0px 0px 5px #6FA1D9;
 }
-/* line 572, ../sass/addTransform.scss */
+/* line 573, ../sass/addTransform.scss */
 .containner .div-ending .div-columns .map-columns .target {
   line-height: 1.4em;
   padding-right: 0.5em;
@@ -734,4 +736,79 @@ a:hover {
   font-family: georgia;
   background-color: #3f3f3f;
   color: #fff;
+}
+
+/* line 597, ../sass/addTransform.scss */
+.tipsAlert, .tipsConfirm {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99999;
+}
+/* line 604, ../sass/addTransform.scss */
+.tipsAlert .shadow, .tipsConfirm .shadow {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+/* line 611, ../sass/addTransform.scss */
+.tipsAlert .content, .tipsConfirm .content {
+  position: absolute;
+  font-family: Century Gothic;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  height: 180px;
+  min-height: 180px;
+  background: #ffffef;
+  overflow: hidden;
+  border-radius: 5px;
+}
+/* line 625, ../sass/addTransform.scss */
+.tipsAlert .content .tipname, .tipsConfirm .content .tipname {
+  cursor: default;
+  line-height: 1.5em;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+  padding-left: 10px;
+}
+/* line 633, ../sass/addTransform.scss */
+.tipsAlert .content .msg, .tipsConfirm .content .msg {
+  font-family: Futura;
+  font-size: 16px;
+  line-height: 1.4em;
+  text-align: center;
+  padding: 20px;
+  width: 280px;
+  height: 4em;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 645, ../sass/addTransform.scss */
+.tipsAlert .content .btn, .tipsConfirm .content .btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+/* line 652, ../sass/addTransform.scss */
+.tipsAlert .content .btn .ok, .tipsAlert .content .btn .cancel, .tipsConfirm .content .btn .ok, .tipsConfirm .content .btn .cancel {
+  float: left;
+  line-height: 38px;
+  width: 50%;
+  cursor: pointer;
+}
+/* line 657, ../sass/addTransform.scss */
+.tipsAlert .content .btn .ok:hover, .tipsAlert .content .btn .cancel:hover, .tipsConfirm .content .btn .ok:hover, .tipsConfirm .content .btn .cancel:hover {
+  background: #c1afff;
+  color: #ffffef;
 }
