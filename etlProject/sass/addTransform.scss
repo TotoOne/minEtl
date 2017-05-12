@@ -60,7 +60,7 @@ a:hover{
 		background-color: #000;
 		box-shadow: 0px 0px 7px #6FA1D9;
 	}
-	.checked{
+	.check-it{
 		// color: #fff;
 		background-color: #000;
 		// box-shadow: 0px 0px 5px #6FA1D9; 		
@@ -80,6 +80,7 @@ a:hover{
 			line-height: 1.8em;
 			label{
 				flex: 0.8;
+				min-width: 12em;
 				margin-right: 2em;
 				font-weight: bold;
 				text-align: right;
@@ -100,6 +101,7 @@ a:hover{
 				flex: 0.8;
 				margin-right: 2em;
 				font-weight: bold;
+				min-width: 12em;
 				text-align: right;
 			}
 			textarea{
@@ -282,6 +284,10 @@ a:hover{
 				color: #fff;
 				// box-shadow: 0px 0px 5px #6FA1D9; 
 			}
+			.checked:active{
+				background-color: #ffffef;
+				color:#000;
+			}
 		}
 		.next-page{
 			margin-top: 30px;
@@ -314,17 +320,19 @@ a:hover{
 			height: 5.5em;
 			margin-left: 2em;
 			div{
+
 				line-height: 1.4em;
 				padding-right: 0.5em;
 				padding-left: 0.5em;
 				margin-top: 0.4em;
-				// margin-right: 0.2em;
+				margin-left: 0.3em;
 				border-radius: 20px / 5px;
-				// box-shadow: 0px 0px 5px #6FA1D9; 
+				box-shadow: 0px 0px 5px #6FA1D9; 
 				font-family: georgia;
 				display: inline-block;
 				background-color: #3f3f3f;
 				color: #fff;
+				cursor: default;					
 			}
 		}
 		.div-search-table{
@@ -394,13 +402,14 @@ a:hover{
 			margin-top: 1em;
 			width: 95%;
 			margin-left: 2em;
+			height: 5.5em;
 			// border: 1px red solid;
 			div{
 				line-height: 1.4em;
 				padding-right: 0.5em;
 				padding-left: 0.5em;
 				margin-top: 0.4em;
-				// margin-right: 0.2em;
+				margin-left: 0.3em;
 				border-radius: 20px / 5px;
 				box-shadow: 0px 0px 5px #6FA1D9; 
 				font-family: georgia;

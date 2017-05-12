@@ -76,24 +76,25 @@ def findSourceTableColumns(args):
     return rs
 
 
-def findTargetTableCoumns(args):
+def findTargetTableColumns(args):
     topicname = args[0]
     tablename = args[1]
     sql = 'select targetlink from topicinform where topicname = ?'
     try:
-        link = dbconn.select(sql, topicname)[0]
+        link = dbconn.select(sql, topicname)[0][0]
     except:
         link = ""
-    if link == "" or dbconn.dbPing(link):
+    if link == "":
         rs = []
     else:
+        link = eval(link)
         try:
             with dbconn.getPoolConnect(link) as db:
-                conn = db.conn
-                cur = conn.cursor
-                cur.execute("select * from % where 1 != 1" % tablename)
+                cur = db.cursor
+                cur.execute("select * from %s where 1 != 1" % tablename)
                 rs = [row[0] for row in cur.description]
-        except:
+        except Exception as e:
+            print(e)
             raise
     return rs
 
