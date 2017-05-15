@@ -44,7 +44,7 @@ def findTopicExist(args):
 
 
 def findTransByTopic(args):
-    sql = 'select ti.transname, ti.transdescribe, tc.transstate from transinform ti, transcontrol tc '
+    sql = 'select ti.transname, ti.transdescribe, tc.transstate, ti.transid from transinform ti, transcontrol tc '
     sql = sql + 'where ti.transid = tc.transid and ti.topicname = ?'
     try:
         rs = dbconn.select(sql, args)
@@ -97,6 +97,20 @@ def findTargetTableColumns(args):
             print(e)
             raise
     return rs
+
+
+def addTrans(args):
+    sqlinform1 = "insert into transinform(transname,topicname,transdescribe,beforetranssourcedeal,"
+    sqlinform2 = "beforetranstargetdeal, sourcetable, targettable,sourcewords,targetwords,aftertranssourcedeal,"
+    sqlinform = sqlinform1 + sqlinform2 + "aftertranstargetdeal)values(?,?,?,?,?,?,?,?,?,?,?)"
+    sqlstate = "insert into transcontrol values(?,?,now())"
+    try:
+        dbconn.execute(sqlinform, args)
+        lastid = dbconn.select("select max(transid) from transinform",())
+        dbconn.execute(sqlstate,(lastid,"0"))
+        # dbconn.execute(sqlstate, ("0",))
+    except:
+        raise
 
 # if __name__ == "__main__":
 # 	loop = asyncio.get_event_loop()

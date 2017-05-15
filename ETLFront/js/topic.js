@@ -39,7 +39,7 @@ $(".todonum").text(todotfnum);
 			// }
 			$.each(tpcontrol, function(index, value){
 				var tr = createTopicItems(value);
-				$(".topic-table").append(tr);
+				$(".trans-table").append(tr);
 				tfnum ++;
 				if(value[2] == 0){
 					todotfnum ++;
@@ -56,7 +56,7 @@ $(".todonum").text(todotfnum);
 			$(".doingnum").text(doingtfnum);
 			$(".todonum").text(todotfnum);
 		}
-	});
+	// });
 
 	console.log("hello");
 
@@ -73,5 +73,7 @@ function createTopicItems(data){
 			'<td class="trans-name">' + data[0] + '</td> ' +
 			'<td class="trans-desc">' + data[1] + '</td> ' +
 			'<td class="trans-state">' + tmpTd + '</td> ' +
-			'</tr>');
+			'</tr>').data("transid",data[3]);
 }
+
+// $(document).on("click",)

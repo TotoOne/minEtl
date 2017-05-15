@@ -41,8 +41,40 @@ def showColumns():
                 rs = dbao.findTargetTableColumns(args)
             jsdic["status"] = 200
         except Exception as e:
-            jsdic["status"] = 310 #表名不存在
+            jsdic["status"] = 310  # 表名不存在
         jsdic["result"] = rs
         result = json.dumps(jsdic)
         print(result)
         return result
+
+
+@transformModule.route('/addTransform', methods=['POST', 'GET'])
+def addTransform():
+    jsdic = {"status": 300}
+    if request.method == 'POST':
+        try:
+            transname = request.form.get("transname")
+            topicname = request.form.get("topicname")
+            transdescribe = request.form.get("transdesc")
+            beforetranssourcedeal = request.form.get("bftranssrcdeal")
+            beforetranstargetdeal = request.form.get("bftranstardeal")
+            sourcetable = request.form.get("sourcetable")
+            targettable = request.form.get("targettable")
+            sourcewords = request.form.getlist("sourcewords[]")
+            targetwords = request.form.getlist("targetwords[]")
+            aftertranssourcedeal = request.form.get("aftranssrcdeal")
+            aftertranstargetdeal = request.form.get("aftranstardeal")
+
+            srcwords = json.dumps(sourcewords)
+            tarwords = json.dumps(targetwords)
+
+            args = (transname, topicname, transdescribe, beforetranssourcedeal, beforetranstargetdeal,
+                    sourcetable, targettable, srcwords, tarwords, aftertranssourcedeal, aftertranstargetdeal)
+
+            dbao.addTrans(args)
+            jsdic["status"] = 200
+        except:
+            jsdic["status"] = 310
+
+    result = json.dumps(jsdic)
+    return result

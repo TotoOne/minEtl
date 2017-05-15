@@ -83,7 +83,7 @@ def execute(sql, args):
     try:
         with getPoolConnect() as db:
             cur = db.cursor
-            cur.execute(sql.replace('?', '%s'), args)
+            cur.execute(sql.replace('?', '%s'), args or ())
             affected = cur.rowcount
             db.conn.commit()
             return affected
