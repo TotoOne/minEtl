@@ -1,7 +1,9 @@
-from flask import Blueprint, request, Flask
+from flask import Blueprint, request
 import json
+import threading
 from dbModule import dbao
 from dbModule import dbconn
+from etlModule import transform
 
 topicModule = Blueprint('topicModule', __name__)
 
@@ -104,4 +106,31 @@ def showtopics():
             jsdic["result"] = ()
     result = json.dumps(jsdic)
     print(result)
+    return result
+
+
+@topicModule.route('/topicStart', methods=['POST', 'GET'])
+def starttopics():
+    jsdic = {"status": 300}
+    if request.method == 'POST':
+        topicname = request.form.get("name")
+        topicstate = request.form.get("state")
+        arg = (topicname,)
+        try:
+            jsdic["status"] = 200
+            if (topicstate == "1"):
+                dbao.updateTopicStart(arg)
+                print("that's will do")
+                t = threading.Thread(target=transform.etlprocess, args=arg)
+                t.start()
+                print("thread in")
+            elif (topicstate == "2"):
+                dbao.updateTopicTodo(arg)
+                dbao.updateTransTodoByTopic(arg)
+                jsdic["status"] = 320
+        except Exception as e:
+            dbao.updateTopicWrong(arg)
+            jsdic["status"] = 310
+            print(e)
+    result = json.dumps(jsdic)
     return result

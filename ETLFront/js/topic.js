@@ -56,7 +56,7 @@ $(".todonum").text(todotfnum);
 			$(".doingnum").text(doingtfnum);
 			$(".todonum").text(todotfnum);
 		}
-	// });
+	});
 
 	console.log("hello");
 

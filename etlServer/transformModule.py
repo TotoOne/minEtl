@@ -1,7 +1,6 @@
-from flask import Blueprint, request, Flask
+from flask import Blueprint, request
 import json
 from dbModule import dbao
-from dbModule import dbconn
 
 transformModule = Blueprint('transformModule', __name__)
 

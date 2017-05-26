@@ -9,6 +9,10 @@ var sourceTable = "";
 var targetTable = "";
 
 (function(){
+	$(".icon-cancel").on("click", function(){
+		location = "topic.html?topicname="+topicName;
+	});
+	
 	var local = decodeURI(window.location.href);
 	if(local.indexOf("=")>0){
 		topicName = local.split("=")[1];
@@ -273,7 +277,7 @@ $(".div-ending .btn-add-trans").on("click",function(){
 		data: endData
 	}).done(function(result){
 		if(result.status == 200){
-			tipsConfirm("Add success");
+			// tipsConfirm("Add success");
 			location.href = "topic.html?topicname="+topicName;
 		}else{
 			tipsConfirm("Transform add fail");
@@ -281,6 +285,7 @@ $(".div-ending .btn-add-trans").on("click",function(){
 	}).fail(function(result){
 		tipsConfirm("Connection error");
 	});
+
 });
 
 $(document).on("click",".div-source-setting .div-columns div",function(){
@@ -350,7 +355,6 @@ function createSelectedColumn(){
 function refreshMapItems(){
 	$mapDiv = $(".div-ending .div-columns");
 	var num = 0;
-	$(".div-ending .div-column-name .select-num").text(num);
 	var srcArr = [];
 	var tarArr = [];
 	$(".div-source-setting .checked").each(function(){
@@ -374,6 +378,7 @@ function refreshMapItems(){
 	}
 	srcselectnum = num;
 	tarselectnum = num;
+	$(".div-ending .div-column-name .select-num").text(num);
 }
 
 function setSourceSelectNum(value){

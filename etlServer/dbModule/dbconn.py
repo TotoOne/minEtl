@@ -48,6 +48,8 @@ class PTConnectionPool(object):
             self.conn.close()
             return True
         else:
+            self.cursor.close()
+            self.conn.close()
             return False
 
 

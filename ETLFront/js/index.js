@@ -52,6 +52,40 @@ $(document).on("click",".sub-topic-name", function(){
 	location.href = "topic.html?topicname=" + topicname;
 });
 
+$(document).on("click", ".topic-state", function(){
+	$this = $(this);
+	var state = $this.text();
+	var name = $this.parent().data("topicName");
+	var msg = {"name":name};
+	if(state == "start"){
+		msg.state = "1"
+	}else if(state == "wrong"){
+		msg.state = "2";
+		wrtpnum --;
+		todotpnum ++;
+		$(".wrongnum").text(wrtpnum);
+		$(".todonum").text(todotpnum);
+	}else{
+		return false;
+	}
+
+	$.ajax({
+		method: "post",
+		url: host + "/topicModule/topicStart",
+		dataType: "json",
+		data: msg
+	}).done(function(result){
+		if(result.status == 200){
+			$this.html('<i class="icon-spin2 animate-spin"></i>');
+			console.log("thread 1");
+		}else if(result.status == 320){
+			$this.html('<a href="#">start</a>');
+		}else{
+			$this.html('<a href="#">wrong</a>');
+		}
+	});
+});
+
 function createTopicItems(data){
 	var tmpTd = '<a href="#">wrong</a>';
 	if(data[2] == 0){
@@ -63,5 +97,5 @@ function createTopicItems(data){
 			'<td class="sub-topic-name">' + data[0] + '</td> ' +
 			'<td class="topic-describe">' + data[1] + '</td> ' +
 			'<td class="topic-state">' + tmpTd + '</td> ' +
-			'</tr>');
+			'</tr>').data("topicName", data[0]);
 }

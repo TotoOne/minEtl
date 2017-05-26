@@ -11,6 +11,16 @@ def findAllTopic():
         raise
 
 
+def findTopicLinkInfo(args):
+    sql = 'select * from topicInform where topicname = ?'
+    try:
+        rs = dbconn.select(sql, args)
+        return rs
+    except Exception as e:
+        print(e)
+        raise
+
+
 def addTopic(args):
     sql = 'insert into topicinform(topicname,linktype,sourcelink,targetlink) values(?,?,?,?)'
     try:
@@ -33,6 +43,36 @@ def addTopicState(args):
         raise
 
 
+def updateTopicTodo(args):
+    sql = "update topicControl set topicstate = '0', starttime = now() where topicname = ?"
+    try:
+        count = dbconn.execute(sql, args)
+        return count
+    except:
+        print("db error")
+        raise
+
+
+def updateTopicStart(args):
+    sql = "update topicControl set topicstate = '1', starttime = now() where topicname = ?"
+    try:
+        count = dbconn.execute(sql, args)
+        return count
+    except:
+        print("db error")
+        raise
+
+
+def updateTopicWrong(args):
+    sql = "update topicControl set topicstate = '2', starttime = now() where topicname = ?"
+    try:
+        count = dbconn.execute(sql, args)
+        return count
+    except:
+        print("db error")
+        raise
+
+
 def findTopicExist(args):
     sql = 'select count(*) from topicinform where topicname = ?'
     try:
@@ -49,7 +89,18 @@ def findTransByTopic(args):
     try:
         rs = dbconn.select(sql, args)
         return rs
-    except:
+    except Exception as e:
+        print(e)
+        raise
+
+
+def findTransInfoByTopic(args):
+    sql = 'select * from transInform where topicname = ?'
+    try:
+        rs = dbconn.select(sql, args)
+        return rs
+    except Exception as e:
+        print(e)
         raise
 
 
@@ -106,10 +157,50 @@ def addTrans(args):
     sqlstate = "insert into transcontrol values(?,?,now())"
     try:
         dbconn.execute(sqlinform, args)
-        lastid = dbconn.select("select max(transid) from transinform",())
-        dbconn.execute(sqlstate,(lastid,"0"))
+        lastid = dbconn.select("select max(transid) from transinform", ())
+        dbconn.execute(sqlstate, (lastid, "0"))
         # dbconn.execute(sqlstate, ("0",))
     except:
+        raise
+
+
+def updateTransTodoByTopic(args):
+    sql = "update transControl set transstate = '0', starttime = now() where transid in (select transid from transInform where topicname = ?)"
+    try:
+        count = dbconn.execute(sql, args)
+        return count
+    except:
+        print("db error")
+        raise
+
+
+def updateTransDone(args):
+    sql = "update transControl set transstate = '0', starttime = now() where transid = ?"
+    try:
+        count = dbconn.execute(sql, args)
+        return count
+    except:
+        print("db error")
+        raise
+
+
+def updateTransStart(args):
+    sql = "update transControl set transstate = '1', starttime = now() where transid = ?"
+    try:
+        count = dbconn.execute(sql, args)
+        return count
+    except:
+        print("db error")
+        raise
+
+
+def updateTransWrong(args):
+    sql = "update transControl set transstate = '2', starttime = now() where transid = ?"
+    try:
+        count = dbconn.execute(sql, args)
+        return count
+    except:
+        print("db error")
         raise
 
 # if __name__ == "__main__":

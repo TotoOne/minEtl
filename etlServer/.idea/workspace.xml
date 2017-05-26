@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/etlServer$etlServer.coverage" NAME="etlServer Coverage Results" MODIFIED="1494849832210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/etlServer$etlServer.coverage" NAME="etlServer Coverage Results" MODIFIED="1495802910851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="dbconn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dbModule/dbconn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="85" column="58" lean-forward="false" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
+            <state relative-caret-position="-72">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -30,44 +30,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbao.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dbModule/dbao.py">
+      <file leaf-file-name="transform.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etlModule/transform.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+            <state relative-caret-position="348">
+              <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
               <folding>
-                <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-                <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-                <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-                <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-                <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-                <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-                <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-                <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-                <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-                <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-                <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-                <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-                <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-                <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-                <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-                <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-                <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-                <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-                <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-                <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1495803238482" expanded="true" signature="1310:1334" ph="select max(r... missing_value" />
+                <marker date="1495803238482" expanded="true" signature="1310:1349" ph="select max(r... " />
+                <marker date="1495803238482" expanded="true" signature="1524:1599" ph="select missi... rownum" />
+                <marker date="1495803238482" expanded="true" signature="1524:1601" ph="select %s fr... " />
+                <marker date="1495803238482" expanded="true" signature="1540:1571" ph="select rownu... missing_value" />
+                <marker date="1495803238482" expanded="true" signature="1929:1954" ph="insert into missing_value... " />
+                <marker date="1495803238482" expanded="true" signature="1929:1957" ph="insert into " />
+                <marker date="1495803238482" expanded="true" signature="1929:1958" ph="insert into missing_value... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topicModule.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dbao.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbModule/dbao.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2628">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding>
+                <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+                <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+                <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+                <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+                <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+                <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+                <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+                <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+                <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+                <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+                <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+                <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+                <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+                <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+                <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+                <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+                <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+                <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+                <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+                <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+                <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+                <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+                <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+                <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+                <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+                <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+                <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+                <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+                <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+                <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+                <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+                <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="topicModule.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/topicModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="427">
+              <caret line="130" column="30" lean-forward="true" selection-start-line="130" selection-start-column="30" selection-end-line="130" selection-end-column="30" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,10 +108,10 @@
       <file leaf-file-name="transformModule.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/transformModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="-984">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,8 +120,8 @@
       <file leaf-file-name="etlServer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etlServer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -116,6 +148,10 @@
       <find>findTopicExist</find>
       <find>findTransByTopic</find>
       <find>dbPing</find>
+      <find>except</find>
+      <find>except Exception</find>
+      <find>print</find>
+      <find>str</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -125,11 +161,12 @@
         <option value="$PROJECT_DIR$/dbModule/topicModule.py" />
         <option value="$PROJECT_DIR$/dbModule/transformModule.py" />
         <option value="$PROJECT_DIR$/dbModule/__init__.py" />
-        <option value="$PROJECT_DIR$/etlServer.py" />
-        <option value="$PROJECT_DIR$/topicModule.py" />
         <option value="$PROJECT_DIR$/dbModule/dbconn.py" />
+        <option value="$PROJECT_DIR$/etlServer.py" />
         <option value="$PROJECT_DIR$/transformModule.py" />
         <option value="$PROJECT_DIR$/dbModule/dbao.py" />
+        <option value="$PROJECT_DIR$/etlModule/transform.py" />
+        <option value="$PROJECT_DIR$/topicModule.py" />
       </list>
     </option>
   </component>
@@ -140,8 +177,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="472" />
-    <option name="y" value="18" />
+    <option name="x" value="488" />
+    <option name="y" value="114" />
     <option name="width" value="1433" />
     <option name="height" value="877" />
   </component>
@@ -161,7 +198,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,12 +220,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dbModule" />
+              <option name="myItemId" value="etlModule" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,16 +501,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="472" y="18" width="1433" height="877" extended-state="0" />
+    <frame x="488" y="114" width="1433" height="877" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28581926" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19985305" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26404494" sideWeight="0.51506245" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21207865" sideWeight="0.5180015" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26404494" sideWeight="0.48493755" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21207865" sideWeight="0.48199853" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25455987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.49722442" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -500,16 +537,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/etlServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dbModule/dbconn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
@@ -525,26 +552,38 @@
         <state relative-caret-position="648">
           <caret line="36" column="68" lean-forward="true" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
           <folding>
-            <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-            <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-            <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-            <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-            <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-            <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+            <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+            <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+            <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+            <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+            <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+            <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+            <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+            <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
           </folding>
         </state>
       </provider>
@@ -554,7 +593,7 @@
         <state relative-caret-position="1656">
           <caret line="92" column="32" lean-forward="true" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -564,7 +603,7 @@
         <state relative-caret-position="270">
           <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -594,26 +633,38 @@
         <state relative-caret-position="414">
           <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
-            <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-            <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-            <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-            <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-            <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-            <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+            <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+            <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+            <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+            <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+            <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+            <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+            <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+            <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
           </folding>
         </state>
       </provider>
@@ -623,7 +674,7 @@
         <state relative-caret-position="1620">
           <caret line="93" column="18" lean-forward="false" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -653,26 +704,38 @@
         <state relative-caret-position="414">
           <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
-            <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-            <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-            <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-            <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-            <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-            <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+            <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+            <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+            <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+            <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+            <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+            <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+            <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+            <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
           </folding>
         </state>
       </provider>
@@ -682,7 +745,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -712,26 +775,38 @@
         <state relative-caret-position="288">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-            <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-            <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-            <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-            <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-            <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+            <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+            <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+            <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+            <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+            <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+            <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+            <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+            <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
           </folding>
         </state>
       </provider>
@@ -741,7 +816,7 @@
         <state relative-caret-position="1332">
           <caret line="77" column="36" lean-forward="true" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -771,26 +846,38 @@
         <state relative-caret-position="234">
           <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
-            <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-            <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-            <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-            <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-            <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-            <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+            <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+            <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+            <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+            <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+            <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+            <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+            <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+            <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
           </folding>
         </state>
       </provider>
@@ -800,7 +887,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -830,26 +917,38 @@
         <state relative-caret-position="414">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-            <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-            <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-            <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-            <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-            <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+            <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+            <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+            <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+            <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+            <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+            <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+            <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+            <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
           </folding>
         </state>
       </provider>
@@ -859,7 +958,7 @@
         <state relative-caret-position="648">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -889,26 +988,38 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-            <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-            <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-            <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-            <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-            <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+            <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+            <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+            <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+            <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+            <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+            <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+            <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+            <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
           </folding>
         </state>
       </provider>
@@ -938,26 +1049,38 @@
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-            <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-            <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-            <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-            <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-            <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+            <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+            <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+            <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+            <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+            <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+            <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+            <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+            <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
           </folding>
         </state>
       </provider>
@@ -967,7 +1090,7 @@
         <state relative-caret-position="298">
           <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -997,26 +1120,38 @@
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-            <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-            <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-            <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-            <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-            <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+            <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+            <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+            <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+            <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+            <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+            <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+            <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+            <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
           </folding>
         </state>
       </provider>
@@ -1026,7 +1161,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1056,26 +1191,38 @@
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-            <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-            <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-            <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-            <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-            <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+            <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+            <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+            <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+            <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+            <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+            <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+            <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+            <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
           </folding>
         </state>
       </provider>
@@ -1085,7 +1232,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1119,69 +1266,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etlServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dbModule/dbao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2628">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <marker date="1495795398869" expanded="true" signature="61:115" ph="select * fro... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
+            <marker date="1495795398869" expanded="true" signature="273:318" ph="select * fro... topicInform" />
+            <marker date="1495795398869" expanded="true" signature="476:557" ph="insert into topicinform... " />
+            <marker date="1495795398869" expanded="true" signature="742:812" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="742:832" ph="insert into topicControl... " />
+            <marker date="1495795398869" expanded="true" signature="1019:1098" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1265:1344" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1511:1590" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="1755:1787" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1807" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1755:1808" ph="select count... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2044" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="1959:2060" ph="select ti.tr... transinform" />
+            <marker date="1495795398869" expanded="true" signature="2300:2345" ph="select * fro... transInform" />
+            <marker date="1495795398869" expanded="true" signature="2565:2588" ph="select sourc... ?" />
+            <marker date="1495795398869" expanded="true" signature="2565:2619" ph="select sourc... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="2908:2937" ph="select * fro... missing_valuewhere" />
+            <marker date="1495795398869" expanded="true" signature="3188:3242" ph="select targe... topicinform" />
+            <marker date="1495795398869" expanded="true" signature="3252:3304" ph="..." />
+            <marker date="1495795398869" expanded="true" signature="3531:3560" ph="select * fro... missing_value" />
+            <marker date="1495795398869" expanded="true" signature="3756:3836" ph="insert into transinform... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4094" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4062:4104" ph="insert into transcontrol... " />
+            <marker date="1495795398869" expanded="true" signature="4187:4223" ph="select max(t... transinform" />
+            <marker date="1495795398869" expanded="true" signature="4394:4430" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4434" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4394:4524" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="4472:4523" ph="select trans... transInform" />
+            <marker date="1495795398869" expanded="true" signature="4690:4767" ph="update topic... " />
+            <marker date="1495795398869" expanded="true" signature="4934:5011" ph="update trans... " />
+            <marker date="1495795398869" expanded="true" signature="5178:5255" ph="update trans... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dbModule/dbconn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="85" column="58" lean-forward="false" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
+        <state relative-caret-position="-72">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topicModule.py">
+    <entry file="file://$PROJECT_DIR$/etlModule/transform.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="348">
+          <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1495803238482" expanded="true" signature="1310:1334" ph="select max(r... missing_value" />
+            <marker date="1495803238482" expanded="true" signature="1310:1349" ph="select max(r... " />
+            <marker date="1495803238482" expanded="true" signature="1524:1599" ph="select missi... rownum" />
+            <marker date="1495803238482" expanded="true" signature="1524:1601" ph="select %s fr... " />
+            <marker date="1495803238482" expanded="true" signature="1540:1571" ph="select rownu... missing_value" />
+            <marker date="1495803238482" expanded="true" signature="1929:1954" ph="insert into missing_value... " />
+            <marker date="1495803238482" expanded="true" signature="1929:1957" ph="insert into " />
+            <marker date="1495803238482" expanded="true" signature="1929:1958" ph="insert into missing_value... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/transformModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="-984">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dbModule/dbao.py">
+    <entry file="file://$PROJECT_DIR$/topicModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+        <state relative-caret-position="427">
+          <caret line="130" column="30" lean-forward="true" selection-start-line="130" selection-start-column="30" selection-end-line="130" selection-end-column="30" />
           <folding>
-            <marker date="1494850808061" expanded="true" signature="61:115" ph="select * fro... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="61:122" ph="select * fro... topiccontrol" />
-            <marker date="1494850808061" expanded="true" signature="264:345" ph="insert into topicinform... " />
-            <marker date="1494850808061" expanded="true" signature="530:600" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="530:620" ph="insert into topicControl... " />
-            <marker date="1494850808061" expanded="true" signature="806:838" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:858" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="806:859" ph="select count... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1095" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1010:1111" ph="select ti.tr... transinform" />
-            <marker date="1494850808061" expanded="true" signature="1369:1392" ph="select sourc... ?" />
-            <marker date="1494850808061" expanded="true" signature="1369:1423" ph="select sourc... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="1712:1741" ph="select * fro... missing_valuewhere" />
-            <marker date="1494850808061" expanded="true" signature="1992:2046" ph="select targe... topicinform" />
-            <marker date="1494850808061" expanded="true" signature="2056:2108" ph="..." />
-            <marker date="1494850808061" expanded="true" signature="2335:2364" ph="select * fro... missing_value" />
-            <marker date="1494850808061" expanded="true" signature="2560:2640" ph="insert into transinform... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2898" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2866:2908" ph="insert into transcontrol... " />
-            <marker date="1494850808061" expanded="true" signature="2991:3027" ph="select max(t... transinform" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
